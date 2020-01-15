@@ -1,6 +1,7 @@
+# Introduction
 
+Hate speech is difficult do define.[@gagliardoneCounteringOnlineHate2015;@erjavecReadersOnlineNews2014] Possible alternative terms are fear speech and dangerous speech that focus on the possible effects of hate speech: Fostering an atmosphere of fear and discrimination.[@gagliardoneCounteringOnlineHate2015] One way to achieve this is to spread disinformation about the targeted group. Constant exposition to hateful rhetoric can shape people's worldview. [@jubanyBackgroundsExperiencesResponses2016]
 
-# Hallo Überschrift
+One possible counter-strategy is counterspeech. Definition.
 
-
-
+Because it would be impossible for jurisdictions to examine and prosecute every possible occurence of hate speech,
