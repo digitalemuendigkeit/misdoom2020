@@ -47,7 +47,15 @@ rmdtemplates::write_bib(pkgs)
 
 
 
-```{r introduction, child = '10_introduction.Rmd', eval=FALSE}
+```{r introduction, child = '10_introduction.Rmd'}
+```
+```{r related-work, child='20_related-work.Rmd'}
+```
+```{r method, child='30_method.Rmd'}
+```
+```{r results, child='40_Results.Rmd'}
+```
+```{r discussion-and-conclusion, child='50_discussion-and-conclusion.Rmd'}
 ```
 
 ```{r dummy, child = '99_dummy.Rmd', eval=FALSE}
@@ -60,7 +68,7 @@ rmdtemplates::write_bib(pkgs)
 
 
 # Acknowledgements {-}
-We would like to thank xyz.
+We would like to thank Max Geulen and Merten Wothge for their help in developing the research design as well as collecting the data.
 We would further like to thank the authors of the packages we have used.
 ```{r r_citations, eval=TRUE, include=TRUE, results="asis"}
 rmdtemplates::line_cite(pkgs) # This creates a single line citing all packages
