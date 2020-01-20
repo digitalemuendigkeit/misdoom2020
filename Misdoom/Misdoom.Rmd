@@ -38,10 +38,11 @@ library(rmdformats)
 library(rmdtemplates)
 library(tidyverse)
 library(cowplot)
+library(citr)
 # add libraries here
 
 # Add libraries to cite here:
-pkgs <- c("knitr", "tidyverse", "rmdformats", "kableExtra", "scales", "psych", "rmdtemplates")
+pkgs <- c("knitr", "tidyverse", "rmdformats", "kableExtra", "scales", "psych", "rmdtemplates", "citr")
 rmdtemplates::write_bib(pkgs)
 ```
 
@@ -64,8 +65,7 @@ rmdtemplates::write_bib(pkgs)
 
 
 
-
-
+Let'S test this. 
 
 # Acknowledgements {-}
 We would like to thank Max Geulen and Merten Wothge for their help in developing the research design as well as collecting the data.

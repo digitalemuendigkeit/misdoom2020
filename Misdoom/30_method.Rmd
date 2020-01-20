@@ -1,12 +1,50 @@
-# Introduction-WIP
+# Method-WIP
 
-Cool current event as a hook. Maybe facebook's policy to allow deceitful ads? Which is why we have to rely on citizen activists to fight disinformation?
+## Focus Groups
 
-Hate speech is difficult do define.[@gagliardoneCounteringOnlineHate2015;@erjavecReadersOnlineNews2014] Possible alternative terms are fear speech and dangerous speech that focus on the possible effects of hate speech: Fostering an atmosphere of fear and discrimination.[@gagliardoneCounteringOnlineHate2015] One way to achieve this is to spread disinformation about the targeted group. Constant exposition to hateful rhetoric can shape people's worldview. [@jubanyBackgroundsExperiencesResponses2016]
 
-One possible counter-strategy is counterspeech. Definition. But who are the counterspeakers? What motivates them to fight hatespeech and disinformation?
+## Participants
+```{r read-participants, include=FALSE}
+pf <- read.csv(file = "participants.csv",header = TRUE,sep = ";",quote = "",dec = ".", fill = TRUE, nrows = 11, )
+```
 
-We will start out by collecting the existing research on counter speech, both the motivations as well as the effects. Then we will present the results from our on research where we asked both active counterspeakers as well as more passive users about their motivation to (not) engage in counter speech.
+```{r}
+```
 
-Maybe add later: It would be impossible for jurisdictions to examine and prosecute every possible occurence of hate speech. Therefore many anti-hate speech initiatives focus on developing critical thinking skills. This is to enable users to easily identify deceitful information or information framed in order to influence their thinking. [@gagliardoneCounteringOnlineHate2015]
-The same is (might be) true for online social media platforms that rely on human employers to decide about reports (although facebook doesn't care about deceitful campaign ads yeah) or even rely on their users to decide whether or not something qualifies as hate speech. [@gagliardoneCounteringOnlineHate2015]
+
+```{r make-participants, include=FALSE}
+group <- c('moderately active (n=5)', 'very active (n=6)')
+genderfemale <- c(sum (pf[1:5,3]=='w'),sum (pf[6:11,3]=='w'))
+gendermale <- c(sum(pf[1:5,3]=='m'),sum(pf[6:11,3]=='m'))
+genderdis <- c(paste('Female: ',genderfemale[1], ', Male: ', gendermale[1], sep = ""), paste('Female: ',genderfemale[2], ', Male: ', gendermale[2], sep = ""))
+agemean <- c(round(mean(pf[1:5,4]), digits=1), round(mean(pf[6:11,4]), digits = 1))
+agesd <- c(round(sd(pf[1:5,4]), digits = 1), round(sd(pf[6:11,4]), digits = 1))
+age <- c(paste('M=',agemean[1],', SD=',agesd[1], sep = ""), paste('M=',agemean[2],', SD=',agesd[2], sep = ""))
+eduabi <- c(sum(pf[1:5,14]=='General Higher Education Entrance Qualification (Abitur)'), sum(pf[6:11,14]=='General Higher Education Entrance Qualification (Abitur)'))
+eduuni <- c(sum(pf[1:5,14]=='University Degree'), sum(pf[6:11,14]=='University Degree'))
+edu <- c(paste('General Higher Education Entrance Qualification (Abitur): ', eduabi[1], ', University Degree: ', eduuni[1], sep = ""), paste('General Higher Education Entrance Qualification (Abitur): ', eduabi[2], ', University Degree: ', eduuni[2], sep = ""))
+occ <- c(paste('Student: ', sum(pf[1:5, 15]=='Student'), ', Full-Time Employment: ', (5 - sum(pf[1:5, 15]=='Student')), sep = ""), paste('Student: ', sum(pf[6:11, 15]=='Student'), ', Full-Time Employment: ', (6 - sum(pf[6:11, 15]=='Student')), sep = ""))
+frqiumean <- c(round(mean(pf[1:5,10]), digits = 1), round(mean(pf[6:11,10]), digits = 1))
+frqiusd <- c(round(sd(pf[1:5,10]), digits = 1), round(sd(pf[6:11,10]), digits = 1))
+frqiu <- c(paste('M=',frqiumean[1],', SD=',frqiusd[1], sep = ""), paste('M=',frqiumean[2],', SD=',frqiusd[2], sep = ""))
+frqcpmean <- c(round(mean(pf[1:5,12]), digits=1), round(mean(pf[6:11,12]), digits=1))
+frqcpsd <- c(round(sd(pf[1:5,12]), digits=1), round(sd(pf[6:11,12]), digits=1))
+frqcp <- c(paste('M=',frqcpmean[1],', SD=',frqcpsd[1], sep = ""), paste('M=',frqcpmean[2],', SD=',frqcpsd[2], sep = ""))
+lrspmean<- c(round(mean(pf[1:5,13]),digits = 1), round(mean(pf[6:11,13]), digits = 1))
+lrspsd<- c(round(sd(pf[1:5,13]), digits = 1), round(sd(pf[6:11,13]), digits = 1))
+lrsp <- c(paste('M=',lrspmean[1],', SD=',lrspsd[1], sep = ""), paste('M=',lrspmean[2],', SD=',lrspsd[2], sep = ""))
+rwnm <- c('Group', 'Gender', 'Highest Level of Education', 'Student', 'Frequency of Use Social Media', 'Frequency of Posting and Commenting Online', 'Left-Right Self-Placement')
+participants <- data.frame(group, genderdis, age, edu, occ, frqiu, frqcp, lrsp)
+names (participants) <- c("Group", "Gender Distribution", "Age", "Highest Level of Education", "Occupation", "Frequency of Social Media Use", "Frequency of Posting and Commenting Online", "Political Left-Right Self-Placement")
+participants[1]<- NULL
+parttrans <- as.data.frame(t(as.matrix(participants)))
+names (parttrans) <- c("Moderately active group (n=5)", "Very active group (n=6)")
+```
+
+```{r table-participants}
+# Note that the label has to be added manually in the caption here.
+parttrans %>% knitr::kable(caption = "Focus group participants", booktabs=T)
+```
+
+
+## Content analysis
