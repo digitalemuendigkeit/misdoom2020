@@ -39,6 +39,7 @@ library(rmdtemplates)
 library(tidyverse)
 library(cowplot)
 library(citr)
+library(kableExtra)
 # add libraries here
 
 # Add libraries to cite here:
@@ -65,7 +66,11 @@ rmdtemplates::write_bib(pkgs)
 
 
 
-Let'S test this. 
+Let'S test this.
+## subsection
+### subbest section
+* bullet point
+1. numerical list
 
 # Acknowledgements {-}
 We would like to thank Max Geulen and Merten Wothge for their help in developing the research design as well as collecting the data.
