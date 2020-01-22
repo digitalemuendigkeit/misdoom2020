@@ -64,16 +64,8 @@ rmdtemplates::write_bib(pkgs)
 ```
 
 
-
-
-Let'S test this.
-## subsection
-### subbest section
-* bullet point
-1. numerical list
-
 # Acknowledgements {-}
-We would like to thank Max Geulen and Merten Wothge for their help in developing the research design as well as collecting the data.
+We would like to thank Maximilian Geulen and Merten Wothge for their help in developing the research design as well as collecting the data.
 We would further like to thank the authors of the packages we have used.
 ```{r r_citations, eval=TRUE, include=TRUE, results="asis"}
 rmdtemplates::line_cite(pkgs) # This creates a single line citing all packages
