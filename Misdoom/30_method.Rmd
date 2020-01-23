@@ -14,18 +14,18 @@ The focus groups were conducted using a guide which was pre-tested once in advan
 4. Motivations for counter speech for political adversaries.
 
 ### Stimuli
-At the beginning of each aforementioned section, one or more stimuli were shown. These stimuli were screenshots of pertinent online interactions. The research question aimed at counter speech on behalf of one's political adversary. At the same time, we did not differentiate between political affiliations but only between social media activity when sorting participants into groups. Therefore, finding universally fitting stimuli, i. e. one universally valid political adversary, proved challenging. Finally, we chose online interactions and tweets involving Alice Weidel, a member of the German right-wing party AfD, as well as posts aimed at one politician of the Greens, Claudia Roth. Not only can the Greens and the AfD be described as being representative of two endes of the political spectrum. [@leesAlternativeGermanyRise2018; @hambauerWerWaehltAfD2018; @maderEuropeanRefugeeCrisis2019] ALso, both the AfD and the Greens, especially Claudia Roth, could be considered highly polarizing in November and December of 2018 when the focus groups were conducted. [@gensingGruenenPolitikerinRothIm2018; @VolksverhetzungHunderteAnzeigen2018]
+At the beginning of each aforementioned section, one or more stimuli were shown. These stimuli were screenshots of pertinent online interactions, see e.g. \@ref(fig:stimulus-b). The research question aimed at counter speech on behalf of one's political adversary. At the same time, we did not differentiate between political affiliations but only between social media activity when sorting participants into groups. Therefore, finding universally fitting stimuli, i. e. one universally valid political adversary, proved challenging. Finally, we chose online interactions and tweets involving Alice Weidel, a member of the German right-wing party AfD, as well as posts aimed at one politician of the Greens, Claudia Roth. Not only can the Greens and the AfD be described as being representative of two endes of the political spectrum. [@leesAlternativeGermanyRise2018; @hambauerWerWaehltAfD2018; @maderEuropeanRefugeeCrisis2019] ALso, both the AfD and the Greens, especially Claudia Roth, could be considered highly polarizing in November and December of 2018 when the focus groups were conducted. [@gensingGruenenPolitikerinRothIm2018; @VolksverhetzungHunderteAnzeigen2018]
 
-```{r stimulus-a, fig.cap="Stimulus A (tweet by German politician Alice Weidel containing anti-immigrant rhetoric)", out.width="50%", fig.show='hold', fig.align='center'}
+```{r stimulus-a, eval=FALSE, fig.align='center', fig.cap="Stimulus A (tweet by German politician Alice Weidel containing anti-immigrant rhetoric)", fig.show='hold', include=FALSE, out.width="50%"}
 knitr::include_graphics("images/stimulus1.png")
 ```
 
 
-```{r stimulus-b, fig.cap="Stimulus B (insulting replies to Alice Weidel's tweets)",out.width="60%", fig.show='hold', fig.align='center'}
+```{r stimulus-b, fig.cap="Stimulus B (insulting replies to one of German politician's Alice Weidel's tweets)",out.width="60%", fig.show='hold', fig.align='center'}
 knitr::include_graphics("images/stimulus2.png")
 ```
 
-```{r stimulus-c, fig.cap="Stimulus C (facebook comments insulting Germa politician Claudia Roth)",out.width="60%", fig.show='hold', fig.align='center'}
+```{r stimulus-c, eval=FALSE, fig.align='center', fig.cap="Stimulus C (facebook comments insulting German politician Claudia Roth)", fig.show='hold', include=FALSE, out.width="60%"}
 knitr::include_graphics("images/stimulus3.png")
 ```
 
@@ -104,4 +104,4 @@ tribble(
 ```
 Overall, a kappa of 0.26 was calculated. This proposes unssatisfactory reliability which is, however, not out of the ordinary for the first iteration of intercoder reliability examination. [@campbellCodingIndepthSemistructured2013; @macphailProcessGuidelinesEstablishing2016] To remedy this lack of reliability, we employed the Intercoder Agreement method as described by @campbellCodingIndepthSemistructured2013.
 
-In figure xy, (DO MOAR: make and include figure) an overview of the final categorization. The full categorization can be found somewhere.
+In figure xy, (DO MOAR: make and include figure) an overview of the final categorization is visible. The full categorization can be found somewhere.
