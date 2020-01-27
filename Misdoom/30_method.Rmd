@@ -81,7 +81,7 @@ parttrans %>% knitr::kable(caption = "Focus group participants", booktabs=T)
 The participants from the very active group score somewhat higher on average social media use frequency and much higher on the posting and commenting frequency. On average, they post or comment between once and several times a day. Therefore, the classification based on the preliminary questioning was proven valid. On average, participants from both groups were young, highly educated and politically left-leaning. In both groups, there were about as many men as women.
 
 ## Content analysis
-We conducted a qualitative content analysis as described by @Mayring2014 using MAXQDA. Spefically, we employed the summarizing technique. The categories were formed by combining a deductive with an inductive approach. Deductively, we followed the categorization into the very active and moderately active group as well as the categorization prescribed by our guide:
+We conducted a qualitative content analysis as described by @mayringQualitativeContentAnalysis2014 using MAXQDA. Spefically, we employed the summarizing technique. The categories were formed by combining a deductive with an inductive approach. Deductively, we followed the categorization into the very active and moderately active group as well as the categorization prescribed by our guide:
 
 * _Moderately active group_
   + _Description_ (1. Own experiences with hate speech. and 2. Engagement in counter speech)
