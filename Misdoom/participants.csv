@@ -1,0 +1,12 @@
+Chiffre (Nr_GeschlechtAlter);Group Number;Gender;Age;Frequency of Use* Social Networking Sites;Frequency of Use* Video Platforms;Frequency of Use* Blogs;Frequency of Use* Online Newspaper;Frequency of Use* 'Infotainment';Frequency uf Use* Social News;Frequency of Use* Overall (calculated);Frequency of Posting and Commenting*;Left-Right Self-Placement**;Highest Level of Education;Occupation
+01_m22;1;m;22;2;4;4;6;1;6;3,8;1;3;General Higher Education Entrance Qualification (Abitur);Student
+02_w24;1;w;24;6;6;1;2;1;3;3,2;3;4;University Degree;Student
+03_m29;1;m;29;6;6;1;5;2;5;4,2;2;6;University Degree;Engineer
+04_w26;1;w;26;4;4;1;5;1;2;2,8;2;4;University Degree;Student
+05_m32;1;m;32;3;3;4;4;2;4;3,3;3;3;University Degree;Software Developer
+06_w46;2;w;46;6;4;2;5;5;1;3,8;6;3;University Degree;Translator
+07_m32;2;m;32;6;6;1;5;2;4;4,0;5;4;General Higher Education Entrance Qualification (Abitur);Software Developer
+08_w27;2;w;27;6;5;6;4;2;4;4,5;6;6;University Degree;Doctoral Student
+09_m28;2;m;28;5;5;4;6;2;5;4,5;6;1;University Degree;Student
+10_m32;2;m;32;5;6;1;4;3;4;3,8;4;4;General Higher Education Entrance Qualification (Abitur);Educator
+11_w29;2;w;29;6;5;6;6;2;2;4,5;6;3;University Degree;Doctoral Student
