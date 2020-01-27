@@ -1,4 +1,36 @@
 # Related Work WIP
-## Hate Speech
+Since the commercialization of the internet, the relationship between digital media and political life has grown ever stronger. [@boulianneTwentyYearsDigital2018] Importantly, it has the potential to strengthen democratic society by facilitating public deliberation. [@papacharissiVirtualSphereInternet2002; @chenOnlineIncivilityPublic2017] At the same time, several limitations for online public deliberation have emerged. For one, offline power imbalances tend to be mirrored in the online world through an overrepresentation of groups in power. [@feezellPredictingOnlinePolitical2016] In addition, online groups tend to be very homogenous meaning that users are seldom exposed to cross-cutting opinions or differing viewpoints. [@colleoniEchoChamberPublic2014] And when differing opinions do collide, incivility and even hate speech can occur. [@papacharissiDemocracyOnlineCivility2004; @coeOnlineUncivilPatterns2014; @rainsIncivilityPoliticalIdentity2017]
+
+[//]: Maybe add later: It would be impossible for jurisdictions to examine and prosecute every possible occurence of hate speech. Therefore many anti-hate speech initiatives focus on developing critical thinking skills. This is to enable users to easily identify deceitful information or information framed in order to influence their thinking. [@gagliardoneCounteringOnlineHate2015]
+The same is (might be) true for online social media platforms that rely on human employers to decide about reports (although facebook doesn't care about deceitful campaign ads yeah) or even rely on their users to decide whether or not something qualifies as hate speech. [@gagliardoneCounteringOnlineHate2015]
+
+[//]: Misinformation definition. This happens on a spectrum. On one end of this spectrum, one might place single users (intentionally or unintentionally) posting dishonest information. On the other end, deep fakes are emerging. While challenging expertly manipulated audio and video will be too hard for the average internet user, rectifying erroneous information can be done by everyone with a basic knowledge of fact-checking (not alwas though). Aside from government-funded campaigns stressing the importance of teaching critical thinking from a young age, there are also sites like https://www.mimikama.at/ who factcheck. But those in turn have to be disseminated by normal users like you and I. But who does this? Who fights misinformation?
+A more subtle approach is hate speech or dangerous speech where often pseudo-facts are used to alienate certain groups. Again, who fights this?~~
+
+## Hate Speech and misinformation
+Although hate speech has been at both discussed by the public at large as well as studied in academia, finding an universally valid definition has proved challenging. [@gagliardoneCounteringOnlineHate2015] Legal institutions and social networks alike tend to provide broad definitions that allow for judgement and possible probsecution on a 
+case-by-case-basis. [@gagliardoneCounteringOnlineHate2015]
+
+From a communication science perspective, @erjavecYouDonUnderstand2012 define hate speech as an expression that is in itself harmful or possibly harm-inciting and targets members of a group determined by characteristics like race or sexual orientation.  Similar characteristics emerge from other definitions that consider the purpose and the effects of hate speech: @waldronHarmHateSpeech2012 characterizes speech as hateful when it serves one or both of two functions: Firstly, to dehumanize a target group and diminish its members and secondly, to reinforce a sense of in-group with other like-minded individuals. Similarly, Susan Benesch has coined the term _dangerous speech_ which she defines as "[a]ny form of expression (e.g. speech, text, or images) that can increase the risk that its audience will condone or commit violence against members of another group." [@beneschDangerousSpeechPractical2020] Often, the groups targeted are marginalized social group. [@alvarez-benjumeaNormativeChangeCulture2018] But especially in common parlance, hate speech can also describe speech directed at groups like politicians that are arguably powerful. [@gagliardoneCounteringOnlineHate2015] In summary, hate speech both reenforces the boundaries between groups and is harmful in itself or in its effects to members of the other group.
+
+--Commonly, this divison into groups is either politically motivated or happens in accordance to political affiliation. Accordingly, comments on news articles, especially articles on polarizing topics, often attract hate speech. [@coeOnlineUncivilPatterns2014; @erjavecReadersOnlineNews2014; @erjavecYouDonUnderstand2012] But it also occurs on social networking platforms like Twitter and Facebook. [@gagliardoneCounteringOnlineHate2015]~~
+
+
+One way to foster hatred against a group is to over-generalize, exaggerate and even outright lie about them. Sources.
+
+
+Effects of incivility and hate speech. Sources.
+--Several studies have studied the effects of hate speech as well as incivility: Exposition to hateful rhetoric can shape people's worldview, [@jubanyBackgroundsExperiencesResponses2016]~~
+
+Counter speech as a possible counter measure.
+
 ## Effectiveness of Counter Speech
+While counter speaking is encouraged in many anti-hate speech programs, [@gagliardoneCounteringOnlineHate2015] only a few studies have actually evaluated the effectiveness of counter speech. @buergerCounterspeechLiteratureReview2019 have reviewed the studies available in November 2019. They differentiate between the effects of counter speech on the hateful speaker and the effects on the wider audience.
+
+Concerning the effects of counter speech on the hateful speaker, the studies listed have produced inconclusive results. [@buergerCounterspeechLiteratureReview2019] However, there is some evidence that counter speech by users perceived as more influential can curb hate speech at least temporarily. e.g.[@mungerTweetmentEffectsTweeted2017]
+
+Findings on the effects of counter speech on the wider audience are less ambiguous. They all find evidence for something that @buergerCounterspeechLiteratureReview2019 call "contagion effect", i.e., the presence of hateful comments increases the probability of an user also making a hateful comment, but the opposite is also true. Moreover, meta-comments urging people to be civil promote further meta-comments about discussion quality. [@molinaRoleCivilityMetacommunication2018]
+
+--Transition sentence.~~
+
 ## Predictors for Counter Speech
