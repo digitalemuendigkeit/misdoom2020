@@ -1,5 +1,7 @@
-# Related Work WIP
+# Related Work / Context
 Since the commercialization of the internet, the relationship between digital media and political life has grown ever stronger. [@boulianneTwentyYearsDigital2018] Importantly, it has the potential to strengthen democratic society by facilitating public deliberation. [@papacharissiVirtualSphereInternet2002; @chenOnlineIncivilityPublic2017] At the same time, several limitations for online public deliberation have emerged. For one, offline power imbalances tend to be mirrored in the online world through an overrepresentation of groups in power. [@feezellPredictingOnlinePolitical2016] In addition, online groups tend to be very homogenous meaning that users are seldom exposed to cross-cutting opinions or differing viewpoints. [@colleoniEchoChamberPublic2014] And when differing opinions do collide, incivility and even hate speech can occur. [@papacharissiDemocracyOnlineCivility2004; @coeOnlineUncivilPatterns2014; @rainsIncivilityPoliticalIdentity2017]
+
+
 
 [//]: Maybe add later: It would be impossible for jurisdictions to examine and prosecute every possible occurence of hate speech. Therefore many anti-hate speech initiatives focus on developing critical thinking skills. This is to enable users to easily identify deceitful information or information framed in order to influence their thinking. [@gagliardoneCounteringOnlineHate2015]
 The same is (might be) true for online social media platforms that rely on human employers to decide about reports (although facebook doesn't care about deceitful campaign ads yeah) or even rely on their users to decide whether or not something qualifies as hate speech. [@gagliardoneCounteringOnlineHate2015]
@@ -13,6 +15,7 @@ case-by-case-basis. [@gagliardoneCounteringOnlineHate2015]
 
 From a communication science perspective, @erjavecYouDonUnderstand2012 define hate speech as an expression that is in itself harmful or possibly harm-inciting and targets members of a group determined by characteristics like race or sexual orientation.  Similar characteristics emerge from other definitions that consider the purpose and the effects of hate speech: @waldronHarmHateSpeech2012 characterizes speech as hateful when it serves one or both of two functions: Firstly, to dehumanize a target group and diminish its members and secondly, to reinforce a sense of in-group with other like-minded individuals. Similarly, Susan Benesch has coined the term _dangerous speech_ which she defines as "[a]ny form of expression (e.g. speech, text, or images) that can increase the risk that its audience will condone or commit violence against members of another group." [@beneschDangerousSpeechPractical2020] Often, the groups targeted are marginalized social group. [@alvarez-benjumeaNormativeChangeCulture2018] But especially in common parlance, hate speech can also describe speech directed at groups like politicians that are arguably powerful. [@gagliardoneCounteringOnlineHate2015] In summary, hate speech both reenforces the boundaries between groups and is harmful in itself or in its effects to members of the other group.
 
+Online hate often takes the form of over-generalization, exaggeration or even outright deceit about the targeted group.
 --Commonly, this divison into groups is either politically motivated or happens in accordance to political affiliation. Accordingly, comments on news articles, especially articles on polarizing topics, often attract hate speech. [@coeOnlineUncivilPatterns2014; @erjavecReadersOnlineNews2014; @erjavecYouDonUnderstand2012] But it also occurs on social networking platforms like Twitter and Facebook. [@gagliardoneCounteringOnlineHate2015]~~
 
 
@@ -25,12 +28,39 @@ Effects of incivility and hate speech. Sources.
 Counter speech as a possible counter measure.
 
 ## Effectiveness of Counter Speech
-While counter speaking is encouraged in many anti-hate speech programs, [@gagliardoneCounteringOnlineHate2015] only a few studies have actually evaluated the effectiveness of counter speech. @buergerCounterspeechLiteratureReview2019 have reviewed the studies available in November 2019. They differentiate between the effects of counter speech on the hateful speaker and the effects on the wider audience.
+Counter speaking is encouraged in many anti-hate speech programs. [@gagliardoneCounteringOnlineHate2015] Furthermore, scholars like [@chenOnlineIncivilityPublic2017] argue that countering online incivility is necessary to realize the potential of online spaces as a place for political deliberation. In spite of that, only a few studies have actually evaluated the effectiveness of counter speech. @buergerCounterspeechLiteratureReview2019 have reviewed the studies available in November 2019. They differentiate between the effects of counter speech on the hateful speaker and the effects on the wider audience.
 
-Concerning the effects of counter speech on the hateful speaker, the studies listed have produced inconclusive results. [@buergerCounterspeechLiteratureReview2019] However, there is some evidence that counter speech by users perceived as more influential can curb hate speech at least temporarily. e.g.[@mungerTweetmentEffectsTweeted2017]
-
+Concerning the effects of counter speech on the hateful speaker, the studies listed have produced inconclusive results. [@buergerCounterspeechLiteratureReview2019] However, there is some evidence that counter speech by users perceived as more influential can curb hate speech at least temporarily. e.g.[@mungerTweetmentEffectsTweeted2017] 
 Findings on the effects of counter speech on the wider audience are less ambiguous. They all find evidence for something that @buergerCounterspeechLiteratureReview2019 call "contagion effect", i.e., the presence of hateful comments increases the probability of an user also making a hateful comment, but the opposite is also true. Moreover, meta-comments urging people to be civil promote further meta-comments about discussion quality. [@molinaRoleCivilityMetacommunication2018]
 
---Transition sentence.~~
+Moreover, with the sheer volume of data being generated on social networking platforms like Facebook or Twitter, those sites rely on their users in their fight against hate speech; [@gagliardoneCounteringOnlineHate2015] even if it only means flagging a comment instead of verbally confronting the perpetrator. So while further research on the effects of counter speech is desirable, the existing indications for its success prompts us to ask what predicts users engaging in counter speech.
 
 ## Predictors for Counter Speech
+There already exist several studies examining willingness to intervene against hate speech and incivility in general and even more studies from the field of cyber-bystander research @lambeStandingBullyingSocial2019 extensively reviewed studies on bullying and peer defending. As bystander intervention in (cyber-)bullying is similar to counter speech, predictors from those studies are included as well.
+
+The following predictors refer to intervention intention, with intervention ranging from more distanced behavior like using the reporting function e.g. [@wongCombatingOnlineAbuse2016] to deeply involved behavior like verbally confronting the individual engaging in hate speech e.g. [@dickterConfrontNotConfront2013]. 
+
+* Individual factors:
+    + Female gender, [@lambeStandingBullyingSocial2019; @wilhelmGenderedMoralityBacklash2019]
+    + high prosociality and empathy, [@lambeStandingBullyingSocial2019]
+    + high self-efficacy, [@lambeStandingBullyingSocial2019]
+    + negative attitude towards passive bystanding, [@lambeStandingBullyingSocial2019]
+    + expectation that defending will help, [@lambeStandingBullyingSocial2019],
+    + low moral disengagement, high moral identity scores and individualizing moral foundation, [@lambeStandingBullyingSocial2019; @wilhelmGenderedMoralityBacklash2019]
+    + negative affect, [@chenOnlineIncivilityPublic2017; @dickterConfrontingHateHeterosexuals2012; @dickterConfrontNotConfront2013] and
+    + perceived social pressure and responsibility. [@dickterConfrontingHateHeterosexuals2012; @dickterConfrontNotConfront2013; @wongCombatingOnlineAbuse2016]
+    
+* Properties of the victim, relationship to and attitudes towards victim:
+    + Individual person as a victim, not abstract social group,  [@naabFlaggingUncivilUser2018]
+    + higher popularity of the victim, [@lambeStandingBullyingSocial2019]
+    + friendship or positive relationship with victim, [@lambeStandingBullyingSocial2019] and
+    + low level of prejudice towards victims's social group. [@dickterConfrontingHateHeterosexuals2012]
+    
+* Situational factors:
+    + Increased deviance of the situation, [@dickterConfrontingHateHeterosexuals2012; @dickterConfrontNotConfront2013; @naabFlaggingUncivilUser2018]
+    + more than one perpetrator, and [@kazerooniCyberbullyingBystanderIntervention2018]
+    + more steps of the bystander intervention model are met (situation is noticed, fewer number of bystanders, information on how to confront is provided), [@lambeStandingBullyingSocial2019; @naabFlaggingUncivilUser2018].
+    
+To summarize, the existing research on hate speech intervention mainly considers the properties of the would-be counter speaker. For this study, we wanted to further research on hate speech intervention by focussing in the relationships between the would-be counter speaker and the victim. To be precise, with hate speech as an instrument for social division and polarization, can counter speech bridge the gap between in- and out-group? Therefore, our research question is:
+
+*In social media discussions, what motivates users to engage in counter speech in support of political adversaries?*
