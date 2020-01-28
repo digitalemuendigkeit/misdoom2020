@@ -82,16 +82,17 @@ names (parttrans) <- c("Moderately active group (n=5)", "Very active group (n=6)
 ```
 
 ```{r table-participants}
+noop <- function(x){x}
 # Note that the label has to be added manually in the caption here.
-parttrans %>% knitr::kable(caption = "Focus group participants", booktabs=T, row.names = T) %>% column_spec(1:3, width = "20em") 
+parttrans %>% 
+  knitr::kable(caption = "Focus group participants", booktabs=T, row.names = T) %>% 
+  column_spec(1, width = "10em") %>% 
+  column_spec(2:3, width = "10em") %>% 
+  noop()
 # %>% kable_styling(full_width = F) %>% footnote(alphabet = c("1=never, 2=very rarely, 3=several times a month, 4=several times a week, 5=daily, 6=several times a day;", "Averaged over 6 types of platforms (social networking sites, video platforms, blogs, online newspapers, infotainment, social news);","1=left, 10=right")) %>% column_spec(1, width=20) %>% column_spec(2, width=40) %>% column_spec(3, width = 40)
 # Tried to further format the table with extraKable and more packages in lncs-template-test. Unfortunately does not seem to work, therefore commented out. :)
 ```
 
-
-```{r}
-kable_styling(kable(head(mtcars)))
-```
 
 
 

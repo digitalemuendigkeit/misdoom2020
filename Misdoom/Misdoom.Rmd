@@ -7,6 +7,9 @@ keywords: "Hate Speech \\and Second keyword \\and Another keyword."
 bibliography: ["rpackages.bib", "bibliography.bib"]
 biblio-style: "apalike"
 link-citations: true
+header-includes:
+  - \usepackage{float}
+  - \usepackage{tabularx}
 output:
   bookdown::pdf_document2:
     fig_caption: true
@@ -48,7 +51,7 @@ rmdtemplates::write_bib(pkgs)
 ```
 
 \Urlmuskip=0mu plus 1mu
-\setcounter{footnote}{0}K
+\setcounter{footnote}{0}
 
 ```{r introduction, eval=FALSE, child='10-introduction', include=FALSE}
 ```

@@ -2,6 +2,17 @@
 % LLNCS macro package for Springer Computer Science proceedings;
 % Version 2.20 of 2017/10/04
 %
+\PassOptionsToPackage{unicode$for(hyperrefoptions)$,$hyperrefoptions$$endfor$}{hyperref}
+\PassOptionsToPackage{hyphens}{url}
+$if(colorlinks)$
+\PassOptionsToPackage{dvipsnames,svgnames*,x11names*}{xcolor}
+$endif$
+$if(dir)$
+$if(latex-dir-rtl)$
+\PassOptionsToPackage{RTLdocument}{bidi}
+$endif$
+$endif$
+
 \documentclass[runningheads]{llncs}
 %
 \usepackage{fixltx2e}
@@ -17,6 +28,10 @@
 \usepackage{microtype}
 \usepackage{eurosym}
 \usepackage{biblatex}
+\usepackage{float}
+\usepackage{ragged2e}
+\usepackage{tabularx}
+\usepackage{caption}
 \addbibresource{bibliography.bib}
 \addbibresource{rpackages.bib}
 % Used for displaying a sample figure. If possible, figure files should
