@@ -49,7 +49,7 @@ rmdtemplates::write_bib(pkgs)
 
 
 
-```{r introduction, child = '10_introduction.Rmd'}
+```{r introduction, eval=FALSE, child='10-introduction', include=FALSE}
 ```
 ```{r related-work, child='20_related-work.Rmd'}
 ```
