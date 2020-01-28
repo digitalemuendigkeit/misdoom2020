@@ -1,22 +1,5 @@
-# Results-WIP
---Firstly, a vast difference in engagement levels between the participants was found. While some would not engage in online discourse at all and consequently would not engage in counter speech either, others were hyperactive on social media, placing a lot of value on political discourse in online spaces. Participants in the latter group reported a much higher likelihood to engage in counter speech, be it on behalf of opponents or in general.
-The most important motivations for counter speech found were deep-seated moral convictions as well as a belief that online discourse is an important part of political participation. Participants felt like it was their duties when social justice and truthful arguing were infringed upon. They also hoped to win people over.
-
-Values:
-
-* Human dignity
-* Truth (factual, evidence-based)
-* Social justice, feminism, anti-racism
-
-
-(Moral) convictions:
-
-* Online discussions are an important part of the political discourse.
-* Therefore participating in online discourse is political activism.
-* Online political discourse contributes to people’s opinions therefore I can „win people over“ by arguing my point.
-* It is my duty to intervene or speak up when my values are infringed upon.--
-
-The results are presented in order of how they are categorized (see figure xy). Therefore, for each category, (_description_, _conditions_ and _motivations_), the results of both focus groups are contrasted. As the focus of this paper lies on antecendents, only a quick overview will be given for the category _description_.
+# Results
+The results are presented in order of how they are categorized (see Figure \@ref(fig:categorization)). Therefore, for each category, (_description_, _conditions_ and _motivations_), the results of both focus groups are contrasted. As the focus of this paper lies on antecendents, only a quick overview will be given for the category _description_.
 
 For the sake of brevity, in the following sections these terms will be used:
 _Hater:_ The perpetrator of the hate speech
@@ -26,23 +9,16 @@ _Adversary victim(s):_ Victim(s) or subject(s) of hate speech that represent a g
 ## Description: Experiences with hate speech and handling hate speech
 When describing their experiences with hate speech, both groups mention similar attributes of hate speech (e.g. the online _spaces_ where they have most often observed it). However, while four of the six very active participants report to have themselves been victims of hate speech, only one moderately active participants does so as well. There are also notable differences in the way participants of both groups handle hate speech: While participants in the moderately active group tend to look at hateful comments only for entertainment value or avoid looking at comments at all, many participants in the very active groupactively seek out hate speech comments in order to fight it.
 
---When describing hate speech participants have encountered, both groups mention similar 
-
-* _spaces_ where hate speech occurs (e.g. comments on news sites),
-* _topics_ that are likely to attract hate speech (e.g. mmigration) and
-* _forms_ of hate speech (e.g. insults)
-
-Additionally, the active group--
-
 ## Conditions: When to engage in counter speech
-For a given situation, participants describe both conditions that make it more likely that they engage in counter speech ( _positive conditions_ --this is a shitty name-- ) as well as conditions that make it less likely ( _negative conditions_). As mentioned above, the participants in the moderately active group reported to only seldomely engage in counter speech at all, much less counter speech favoring _adversary victims_ --politically opposed users--. Therefore most of the conditions listed are to be understood as conditions for counter speech in general. The only exception is the subcategory _positive conditions_ for the very active group where a differentiation between counter speech in general and counter speech favoring _adversary victims_ was possible.
+For a given situation, participants describe both conditions that make it more likely that they engage in counter speech ( _positive conditions_) as well as conditions that make it less likely ( _negative conditions_). As mentioned above, the participants in the moderately active group reported to only seldomely engage in counter speech at all, much less counter speech favoring _adversary victims_, i.e. politically opposed users that are targetted by hate speech. Therefore most of the conditions listed are to be understood as conditions for counter speech in general. The only exception is the subcategory _positive conditions_ for the very active group where a differentiation between counter speech in general and counter speech favoring _adversary victims_ was possible.
 
 ### Positive conditions for counter speech favoring adversaries
 When it comes defending people who they are politically opposed to, the following conditions emerged in the very active group:
 
 * _Offenses against a 'culture of discussion'_, i. e. the participant feels that the hater breaks the rules for a respectful debate,
-* _offenses against the human dignity_, i. e. the participant feels that the hater debases the victim's human dignity, and
-* _properties of the victim_, e. g. the participants feels sympathy for the victim.
+* _offenses against the human dignity_, i. e. the participant feels that the hater debases the victim's human dignity,
+* _properties of the victim_, e. g. the participants feels sympathy for the victim, and
+* _a personal connection to the topic discussed_.
 
 ### Positive conditions for counter speech in general
 #### Properties of the hate speech

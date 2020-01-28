@@ -1,4 +1,4 @@
-# Method-WIP
+# Method
 As laid out in chapter \@ref(predictors-for-counter-speech), there is some research on predictors for counter speech in general as well as a breadth of studies in the field of cyber-bystander research. To our knowledge, however, there have not been any studies on out-group favoring counter speech as of January 2020. Therefore, an exploratoy study design was chosen.
 Data was gathered in two focus groups. Afterwards, the data was transcribed and analysed to find the most pertinent predictors. The full transcriptions as well as the full analysis can be found somewhere.
 
@@ -13,6 +13,8 @@ The focus groups were conducted using a guide which was pre-tested once in advan
 3. Conditions for counter speech for political adversaries.
 4. Motivations for counter speech for political adversaries.
 
+In this context, conditions referred to predictors in specific situations and motivations to general predictors.
+
 ### Stimuli
 At the beginning of each aforementioned section, one or more stimuli were shown. These stimuli were screenshots of pertinent online interactions, see e.g. \@ref(fig:stimulus-b). The research question aimed at counter speech on behalf of one's political adversary. At the same time, we did not differentiate between political affiliations but only between social media activity when sorting participants into groups. Therefore, finding universally fitting stimuli, i. e. one universally valid political adversary, proved challenging. Finally, we chose online interactions and tweets involving Alice Weidel, a member of the German right-wing party AfD, as well as posts aimed at one politician of the Greens, Claudia Roth. Not only can the Greens and the AfD be described as being representative of two endes of the political spectrum. [@leesAlternativeGermanyRise2018; @hambauerWerWaehltAfD2018; @maderEuropeanRefugeeCrisis2019] ALso, both the AfD and the Greens, especially Claudia Roth, could be considered highly polarizing in November and December of 2018 when the focus groups were conducted. [@gensingGruenenPolitikerinRothIm2018; @VolksverhetzungHunderteAnzeigen2018]
 
@@ -21,7 +23,7 @@ knitr::include_graphics("images/stimulus1.png")
 ```
 
 
-```{r stimulus-b, fig.cap="Stimulus B (insulting replies to one of German politician's Alice Weidel's tweets)",out.width="60%", fig.show='hold', fig.align='center'}
+```{r stimulus-b, fig.cap="Stimulus B (insulting replies to one of German politician's Alice Weidel's tweets)", fig.show='hold', fig.align='center'}
 knitr::include_graphics("images/stimulus2.png")
 ```
 
@@ -104,4 +106,9 @@ tribble(
 ```
 Overall, a kappa of 0.26 was calculated. This proposes unssatisfactory reliability which is, however, not out of the ordinary for the first iteration of intercoder reliability examination. [@campbellCodingIndepthSemistructured2013; @macphailProcessGuidelinesEstablishing2016] To remedy this lack of reliability, we employed the Intercoder Agreement method as described by @campbellCodingIndepthSemistructured2013.
 
-In figure xy, (DO MOAR: make and include figure) an overview of the final categorization is visible. The full categorization can be found somewhere.
+In Figure \@ref(fig:categorization), an overview of the final categorization is visible. The full categorization can be found somewhere.
+
+```{r categorization, fig.cap="Overview of the final categorization"}
+# Note that the label for a figure is always fig:chunkname
+knitr::include_graphics("images/categorization.png")
+```
