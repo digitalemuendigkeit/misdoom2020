@@ -47,7 +47,8 @@ pkgs <- c("knitr", "tidyverse", "rmdformats", "kableExtra", "scales", "psych", "
 rmdtemplates::write_bib(pkgs)
 ```
 
-
+\Urlmuskip=0mu plus 1mu
+\setcounter{footnote}{0}K
 
 ```{r introduction, eval=FALSE, child='10-introduction', include=FALSE}
 ```

@@ -1,9 +1,11 @@
 # Method
 As laid out in chapter \@ref(predictors-for-counter-speech), there is some research on predictors for counter speech in general as well as a breadth of studies in the field of cyber-bystander research. To our knowledge, however, there have not been any studies on out-group favoring counter speech as of January 2020. Therefore, an exploratoy study design was chosen.
-Data was gathered in two focus groups. Afterwards, the data was transcribed and analysed to find the most pertinent predictors. The full transcriptions as well as the full analysis can be found somewhere.
+Data was gathered in two focus groups. Afterwards, the data was transcribed and analysed to find the most pertinent predictors. The full transcriptions as well as the full analysis can be found in our github repository for this project.[^github]
+
+[^github]: The repo can be found here: ([github.com/digitalemuendigkeit/misdoom2020](http://github.com/digitalemuendigkeit/misdoom2020)).
 
 ## Focus groups
-We conducted two focus groups, asking participants about their experiences with online hate speech in general and their own reactions to hate speech in particular, i.e. if they engaged in in counter speech at all. Special emphasis was placed on counter speech on behalf of political adversaries, that is, people the participants considered to be their opponents in an online discussion.
+We conducted two focus groups, asking participants about their experiences with online hate speech in general and their own reactions to hate speech in particular, i.e., if they engaged in in counter speech at all. Special emphasis was placed on counter speech on behalf of political adversaries, that is, people the participants considered to be their opponents in an online discussion.
 
 ### Guide and structure
 The focus groups were conducted using a guide which was pre-tested once in advance. The sequence was structured into four sections, each concerned with one main topic:
@@ -16,7 +18,8 @@ The focus groups were conducted using a guide which was pre-tested once in advan
 In this context, conditions referred to predictors in specific situations and motivations to general predictors.
 
 ### Stimuli
-At the beginning of each aforementioned section, one or more stimuli were shown. These stimuli were screenshots of pertinent online interactions, see e.g. \@ref(fig:stimulus-b). The research question aimed at counter speech on behalf of one's political adversary. At the same time, we did not differentiate between political affiliations but only between social media activity when sorting participants into groups. Therefore, finding universally fitting stimuli, i. e. one universally valid political adversary, proved challenging. Finally, we chose online interactions and tweets involving Alice Weidel, a member of the German right-wing party AfD, as well as posts aimed at one politician of the Greens, Claudia Roth. Not only can the Greens and the AfD be described as being representative of two endes of the political spectrum. [@leesAlternativeGermanyRise2018; @hambauerWerWaehltAfD2018; @maderEuropeanRefugeeCrisis2019] ALso, both the AfD and the Greens, especially Claudia Roth, could be considered highly polarizing in November and December of 2018 when the focus groups were conducted. [@gensingGruenenPolitikerinRothIm2018; @VolksverhetzungHunderteAnzeigen2018]
+At the beginning of each aforementioned section, one or more stimuli were shown. These stimuli were screenshots of pertinent online interactions, see e.g., Figure \@ref(fig:stimulus-b). The research question aimed at counter speech on behalf of one's political adversary. At the same time, we did not differentiate between political affiliations, but only between social media activity when sorting participants into groups. Therefore, finding universally fitting stimuli, i.e., one universally valid political adversary, proved challenging. Finally, we chose online interactions and tweets involving Alice Weidel, a member of the German right-wing party AfD, as well as posts aimed at one politician of the Greens, Claudia Roth. Not only can the Greens and the AfD be described as being representative of two endes of the political spectrum [@leesAlternativeGermanyRise2018; @hambauerWerWaehltAfD2018; @maderEuropeanRefugeeCrisis2019]. 
+Also, both the AfD and the Greens, especially Claudia Roth, could be considered highly polarizing in November and December of 2018 when the focus groups were conducted [@gensingGruenenPolitikerinRothIm2018; @VolksverhetzungHunderteAnzeigen2018].
 
 ```{r stimulus-a, eval=FALSE, fig.align='center', fig.cap="Stimulus A (tweet by German politician Alice Weidel containing anti-immigrant rhetoric)", fig.show='hold', include=FALSE, out.width="50%"}
 knitr::include_graphics("images/stimulus1.png")
@@ -32,14 +35,17 @@ knitr::include_graphics("images/stimulus3.png")
 ```
 
 ### Recording and transcription
-Each focus group was recorded on audio. The recordings were then transcribed using MAXQDA. The transcription system employed was a modified version of GAT 2. [@seltingSystemTranscribingTalkininteraction2011] The full transcripts can be found somewhere.
+Each focus group was recorded on audio. The recordings were then transcribed using MAXQDA. The transcription system employed was a modified version of GAT 2 [@seltingSystemTranscribingTalkininteraction2011]. The full transcripts can be found in the accompanying github repository.[^github]
 
 ## Participants
-The participants were recruited through convenience. Based on preliminary questioning, the were sorted into two homogenous groups, the moderately active group and the very active group, in order to obtain more detailed results. [@schulzFokusgruppenEmpirischenSozialwissenschaft2012] Potential participants who reported only social media use or none at all were excluded. Participants who mostly consumed social media but only seldom posted or commented were sorted into the moderately active group (n=5), while participants who both used and commented and posted in social media became part of the very active group (n=6).
-Before starting the focus group, each participant was surveyed on some demographic details as well as the frequency of their social media use, the frequency of them posting and commenting online, and their political left-right self-placement. [@breyerLeftRightSelfPlacementALLBUS] A sample of the questionnaire can be found somewhere. The results of that survey are displayed in Table \@ref(tab:table-participants). 
+The participants were recruited through convenience sampling. Based on preliminary questioning, they were sorted into two homogenous groups, the moderately active group and the very active group, in order to obtain more detailed results [@schulzFokusgruppenEmpirischenSozialwissenschaft2012]. 
+Potential participants who reported only passive social media use or none at all were excluded. Participants who mostly consumed social media but only seldom posted or commented were sorted into the moderately active group (n=5), while participants who both used and commented and posted in social media became part of the very active group (n=6).
+Before starting the focus group, each participant was surveyed on some demographic details as well as the frequency of their social media use, the frequency of them posting and commenting online, and their political left-right self-placement [@breyerLeftRightSelfPlacementALLBUS]. A sample of the questionnaire can be found in the github repository. [^github] The results of that survey are displayed in Table \@ref(tab:table-participants). 
+
 ```{r read-participants, include=FALSE}
 pf <- read.csv(file = "participants.csv",header = TRUE,sep = ";",quote = "",dec = ",", fill = TRUE, nrows = 11, )
 ```
+
 ```{r make-participants, include=FALSE}
 group <- c('Moderately active group (n=5)', 'Very active group (n=6)')
 genderfemale <- c(sum (pf[1:5,3]=='w'),sum (pf[6:11,3]=='w'))
@@ -63,6 +69,7 @@ lrspsd<- c(round(sd(pf[1:5,13]), digits = 1), round(sd(pf[6:11,13]), digits = 1)
 lrsp <- c(paste('M=',lrspmean[1],', SD=',lrspsd[1], sep = ""), paste('M=',lrspmean[2],', SD=',lrspsd[2], sep = ""))
 rwnm <- c('Group', 'Gender', 'Highest Level of Education', 'Student', 'Frequency of Use Social Media', 'Frequency of Posting and Commenting Online', 'Left-Right Self-Placement')
 participants <- data.frame(group, genderdis, age, edu, occ, frqiu, frqcp, lrsp)
+
 names (participants) <- c("Group", "Gender", "Age", "Highest Level\ of Education", "Occupation", "Frequency of Social Media Use","Frequency of Posting and Commenting Online", "Political Left-Right Self-Placement")
 # names (participants)[6] <- paste0(names(participants)[6], footnote_marker_alphabet(1), footnote_marker_alphabet(2))
 # names (participants)[7] <- paste0(names(participants)[7], footnote_marker_alphabet(1))
@@ -76,10 +83,18 @@ names (parttrans) <- c("Moderately active group (n=5)", "Very active group (n=6)
 
 ```{r table-participants}
 # Note that the label has to be added manually in the caption here.
-parttrans %>% knitr::kable(caption = "Focus group participants", booktabs=T) 
+parttrans %>% knitr::kable(caption = "Focus group participants", booktabs=T, row.names = T) %>% column_spec(1:3, width = "20em") 
 # %>% kable_styling(full_width = F) %>% footnote(alphabet = c("1=never, 2=very rarely, 3=several times a month, 4=several times a week, 5=daily, 6=several times a day;", "Averaged over 6 types of platforms (social networking sites, video platforms, blogs, online newspapers, infotainment, social news);","1=left, 10=right")) %>% column_spec(1, width=20) %>% column_spec(2, width=40) %>% column_spec(3, width = 40)
 # Tried to further format the table with extraKable and more packages in lncs-template-test. Unfortunately does not seem to work, therefore commented out. :)
 ```
+
+
+```{r}
+kable_styling(kable(head(mtcars)))
+```
+
+
+
 The participants from the very active group score somewhat higher on average social media use frequency and much higher on the posting and commenting frequency. On average, they post or comment between once and several times a day. Therefore, the classification based on the preliminary questioning was proven valid. On average, participants from both groups were young, highly educated and politically left-leaning. In both groups, there were about as many men as women.
 
 ## Content analysis
