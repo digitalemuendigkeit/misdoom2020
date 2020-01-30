@@ -1,5 +1,6 @@
 ---
 title: "Defend Your Enemy. A Qualitative Study on Defending Political Opponents Against Hate Speech Online"
+title-running: "Defend Your Enemy Against Hate Speech" 
 author-inputfile: "authors.tex" 
 abstract: |
   The abstract should briefly summarize the contents of the paper in 150--250 words.
