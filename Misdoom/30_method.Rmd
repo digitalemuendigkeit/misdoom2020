@@ -1,6 +1,5 @@
 # Method
-As laid out in chapter \@ref(predictors-for-counter-speech), there is some research on predictors for counter speech in general as well as a breadth of studies in the field of cyber-bystander research. To our knowledge, however, there have not been any studies on out-group favoring counter speech as of January 2020. Therefore, an exploratoy study design was chosen.
-Data was gathered in two focus groups. Afterwards, the data was transcribed and analysed to find the most pertinent predictors. The full transcriptions as well as the full analysis can be found in our github repository for this project.[^github]
+As laid out in chapter \@ref(predictors-for-counter-speech), there is some research on predictors for counter speech in general as well as a breadth of studies in the field of cyber-bystander research. To our knowledge, however, there have not been any studies on out-group favoring counter speech. Therefore, an exploratoy study design was chosen. Data was gathered in two focus groups. Afterwards, the data was transcribed and analysed to find the most pertinent predictors. The full transcriptions and the full analysis as well as the questionnaire, the slides and the guide used to collect our data can be found in our github repository for this project.[^github]
 
 [^github]: The repo can be found here: ([github.com/digitalemuendigkeit/misdoom2020](http://github.com/digitalemuendigkeit/misdoom2020)).
 
@@ -8,17 +7,17 @@ Data was gathered in two focus groups. Afterwards, the data was transcribed and 
 We conducted two focus groups, asking participants about their experiences with online hate speech in general and their own reactions to hate speech in particular, i.e., if they engaged in in counter speech at all. Special emphasis was placed on counter speech on behalf of political adversaries, that is, people the participants considered to be their opponents in an online discussion.
 
 ### Guide and structure
-The focus groups were conducted using a guide which was pre-tested once in advance. The sequence was structured into four sections, each concerned with one main topic:
+The focus groups were conducted using a guide which was pre-tested in advance. The sequence was structured into four sections, each concerned with one main topic:
 
 1. Own experiences with hate speech.
 2. Engagement in counter speech.
 3. Conditions for counter speech for political adversaries.
 4. Motivations for counter speech for political adversaries.
 
-In this context, conditions referred to predictors in specific situations and motivations to general predictors.
+In this context, conditions referred to predictors for counter speech in specific situations (i.e, when will you engage in counter speech) and motivations to general predictors (i.e., why do you engage in counter speech).
 
 ### Stimuli
-At the beginning of each aforementioned section, one or more stimuli were shown. These stimuli were screenshots of pertinent online interactions, see e.g., Figure \@ref(fig:stimulus-b). The research question aimed at counter speech on behalf of one's political adversary. At the same time, we did not differentiate between political affiliations, but only between social media activity when sorting participants into groups. Therefore, finding universally fitting stimuli, i.e., one universally valid political adversary, proved challenging. Finally, we chose online interactions and tweets involving Alice Weidel, a member of the German right-wing party AfD, as well as posts aimed at one politician of the Greens, Claudia Roth. Not only can the Greens and the AfD be described as being representative of two endes of the political spectrum [@leesAlternativeGermanyRise2018; @hambauerWerWaehltAfD2018; @maderEuropeanRefugeeCrisis2019]. 
+During the focus groups, we used screenshots of pertinent online interactions as stimuli, see e.g., Figure \@ref(fig:stimulus-b). As the research question aimed at counter speech on behalf of one's political adversary, we aimed to select stimuli in a way that different political affiliations were accounted for. Therefore, we chose online interactions and tweets involving Alice Weidel, a member of the German right-wing party AfD, as well as posts aimed at one politician of the Greens, Claudia Roth. Not only can the Greens and the AfD be described as being representative of two endes of the political spectrum [@leesAlternativeGermanyRise2018; @hambauerWerWaehltAfD2018; @maderEuropeanRefugeeCrisis2019]. 
 Also, both the AfD and the Greens, especially Claudia Roth, could be considered highly polarizing in November and December of 2018 when the focus groups were conducted [@gensingGruenenPolitikerinRothIm2018; @VolksverhetzungHunderteAnzeigen2018].
 
 ```{r stimulus-a, eval=FALSE, fig.align='center', fig.cap="Stimulus A (tweet by German politician Alice Weidel containing anti-immigrant rhetoric)", fig.show='hold', include=FALSE, out.width="50%"}
@@ -35,12 +34,13 @@ knitr::include_graphics("images/stimulus3.png")
 ```
 
 ### Recording and transcription
-Each focus group was recorded on audio. The recordings were then transcribed using MAXQDA. The transcription system employed was a modified version of GAT 2 [@seltingSystemTranscribingTalkininteraction2011]. The full transcripts can be found in the accompanying github repository.[^github]
+Each focus group was recorded on audio. We then transcribed the recordings  using MAXQDA, employing a modified version of GAT 2 as the transcription system [@seltingSystemTranscribingTalkininteraction2011].
 
 ## Participants
-The participants were recruited through convenience sampling. Based on preliminary questioning, they were sorted into two homogenous groups, the moderately active group and the very active group, in order to obtain more detailed results [@schulzFokusgruppenEmpirischenSozialwissenschaft2012]. 
-Potential participants who reported only passive social media use or none at all were excluded. Participants who mostly consumed social media but only seldom posted or commented were sorted into the moderately active group (n=5), while participants who both used and commented and posted in social media became part of the very active group (n=6).
-Before starting the focus group, each participant was surveyed on some demographic details as well as the frequency of their social media use, the frequency of them posting and commenting online, and their political left-right self-placement [@breyerLeftRightSelfPlacementALLBUS]. A sample of the questionnaire can be found in the github repository. [^github] The results of that survey are displayed in Table \@ref(tab:table-participants). 
+The participants were recruited through convenience sampling. Based on preliminary questioning, they were sorted into two homogenous groups, the _moderately active_ group and the _very active_ group, in order to obtain more detailed results [@schulzFokusgruppenEmpirischenSozialwissenschaft2012]. 
+Potential participants who reported only passive social media use or none at all were excluded. The _moderately active_ group (n=5) included participants who mostly consumed social media but only seldomly posted or commented. Participants who not only used but also commented and posted in social media became part of the _very active group_ (n=6). 
+
+Before starting the focus group, each participant was surveyed on demographic details as well as the frequency of their social media use in general, the frequency of them posting and commenting online, and their political left-right self-placement [@breyerLeftRightSelfPlacementALLBUS]. The results are displayed in table \@ref(tab:table-participants).
 
 ```{r read-participants, include=FALSE}
 pf <- read.csv(file = "participants.csv",header = TRUE,sep = ";",quote = "",dec = ",", fill = TRUE, nrows = 11, )
@@ -56,8 +56,8 @@ agesd <- c(round(sd(pf[1:5,4]), digits = 1), round(sd(pf[6:11,4]), digits = 1))
 age <- c(paste('M=',agemean[1],', SD=',agesd[1], sep = ""), paste('M=',agemean[2],', SD=',agesd[2], sep = ""))
 eduabi <- c(sum(pf[1:5,14]=='General Higher Education Entrance Qualification (Abitur)'), sum(pf[6:11,14]=='General Higher Education Entrance Qualification (Abitur)'))
 eduuni <- c(sum(pf[1:5,14]=='University Degree'), sum(pf[6:11,14]=='University Degree'))
-edu <- c(paste('General Higher Education Entrance Qualification (Abitur): ', eduabi[1], ', University Degree: ', eduuni[1], sep = ""), paste('General Higher Education Entrance Qualification (Abitur): ', eduabi[2], ', University Degree: ', eduuni[2], sep = ""))
-occ <- c(paste('Student: ', sum(pf[1:5, 15]=='Student'), ', Full-Time Employment: ', (5 - sum(pf[1:5, 15]=='Student')), sep = ""), paste('Student: ', sum(pf[6:11, 15]=='Student'), ', Full-Time Employment: ', (6 - sum(pf[6:11, 15]=='Student')), sep = ""))
+edu <- c(paste('Abitur', footnote_marker_alphabet(1), ' :', eduabi[1], ', University Degree: ', eduuni[1], sep = ""), paste('General Higher Education Entrance Qualification (Abitur): ', eduabi[2], ', University Degree: ', eduuni[2], sep = ""))
+occ <- c(paste('Student: ', sum(pf[1:5, 15]=='Student'), ', Full-Time Employed: ', (5 - sum(pf[1:5, 15]=='Student')), sep = ""), paste('Student: ', sum(pf[6:11, 15]=='Student'), ', Full-Time Employed: ', (6 - sum(pf[6:11, 15]=='Student')), sep = ""))
 frqiumean <- c(round(mean(pf[1:5,11]), digits = 1), round(mean(pf[6:11,11]), digits = 1))
 frqusd <- c(round(sd(pf[1:5,11]), digits = 1), round(sd(pf[6:11,11]), digits = 1))
 frqiu <- c(paste('M=',frqiumean[1],', SD=',frqusd[1], sep = ""), paste('M=',frqiumean[2],', SD=',frqusd[2], sep = ""))
@@ -88,18 +88,19 @@ parttrans %>%
   knitr::kable(caption = "Focus group participants", booktabs=T, row.names = T) %>% 
   column_spec(1, width = "10em") %>% 
   column_spec(2:3, width = "10em") %>% 
-  noop()
-# %>% kable_styling(full_width = F) %>% footnote(alphabet = c("1=never, 2=very rarely, 3=several times a month, 4=several times a week, 5=daily, 6=several times a day;", "Averaged over 6 types of platforms (social networking sites, video platforms, blogs, online newspapers, infotainment, social news);","1=left, 10=right")) %>% column_spec(1, width=20) %>% column_spec(2, width=40) %>% column_spec(3, width = 40)
+  noop() 
+# %>% footnote(alphabet = c("General Higher Education Entrance Qualification", "1=never, 2=very rarely, 3=several times a month, 4=several times a week, 5=daily, 6=several times a day;", "averaged over 6 types of platforms (social networking sites, video platforms, blogs, online newspapers, infotainment, social news);","1=left, 10=right")) %>% column_spec(1, width=20) 
 # Tried to further format the table with extraKable and more packages in lncs-template-test. Unfortunately does not seem to work, therefore commented out. :)
 ```
 
 
 
 
-The participants from the very active group score somewhat higher on average social media use frequency and much higher on the posting and commenting frequency. On average, they post or comment between once and several times a day. Therefore, the classification based on the preliminary questioning was proven valid. On average, participants from both groups were young, highly educated and politically left-leaning. In both groups, there were about as many men as women.
+The participants from the very active group score somewhat higher on average social media use frequency and much higher on the posting and commenting frequency. Therefore, the classification based on the preliminary questioning was proven valid.
 
 ## Content analysis
-We conducted a qualitative content analysis as described by @mayringQualitativeContentAnalysis2014 using MAXQDA. Spefically, we employed the summarizing technique. The categories were formed by combining a deductive with an inductive approach. Deductively, we followed the categorization into the very active and moderately active group as well as the categorization prescribed by our guide:
+We conducted a qualitative content analysis as described by @mayringQualitativeContentAnalysis2014 using MAXQDA. <!-- Spefically, we employed the summarizing technique. 
+The categories were formed by combining a deductive with an inductive approach. Deductively, we followed the categorization into the very active and moderately active group as well as the categorization prescribed by our guide: 
 
 * _Moderately active group_
   + _Description_ (1. Own experiences with hate speech. and 2. Engagement in counter speech)
@@ -110,19 +111,21 @@ We conducted a qualitative content analysis as described by @mayringQualitativeC
  
 Inside these categories, more sub-categories were formed inductively.
 
-### Intercoder reliability
-After we first developed a categorization, we tested for intercoder reliability by calculating coefficient kappa using the approach of @brennan1981coefficient. The minimum coding overlap was 60%. The results are shown in table \@ref(tab:table-intercoder-reliability).
+### Intercoder reliability -->
+After we first developed a categorization, we tested for intercoder reliability by calculating coefficient kappa using the approach of @brennan1981coefficient (minimum coding overlap=60%). 
+<!-- The results are shown in table \@ref(tab:table-intercoder-reliability).
 
-```{r table-intercoder-reliability}
+```{r table-intercoder-reliability, include=FALSE }
 tribble(
   ~`Category`, ~`Number of codes`, ~`Minimum coding overlap`, ~`Agreement`, ~`kappa`,
   "Moderately active group",  82, "60%", "27.16%", 0.26,
   "Very active group",  124, "60%","27.23%", 0.26
 ) %>% knitr::kable(caption = "Intercoder Reliability", booktabs=T, longtable=T)
 ```
-Overall, a kappa of 0.26 was calculated. This proposes unssatisfactory reliability which is, however, not out of the ordinary for the first iteration of intercoder reliability examination. [@campbellCodingIndepthSemistructured2013; @macphailProcessGuidelinesEstablishing2016] To remedy this lack of reliability, we employed the Intercoder Agreement method as described by @campbellCodingIndepthSemistructured2013.
+Overall, a kappa of 0.26 was calculated. This proposes unssatisfactory reliability which is, however, not out of the ordinary for the first iteration of intercoder reliability examination. [@campbellCodingIndepthSemistructured2013; @macphailProcessGuidelinesEstablishing2016]-->
+We calculated a kappa of 0.26 which proposes unsatisfactory reliability. To remedy this , we employed the Intercoder Agreement method as described by @campbellCodingIndepthSemistructured2013.
 
-In Figure \@ref(fig:categorization), an overview of the final categorization is visible. The full categorization can be found somewhere.
+In Figure \@ref(fig:categorization), an overview of the final categorization is visible.
 
 ```{r categorization, fig.cap="Overview of the final categorization"}
 # Note that the label for a figure is always fig:chunkname

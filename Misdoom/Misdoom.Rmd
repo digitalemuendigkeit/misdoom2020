@@ -69,8 +69,7 @@ rmdtemplates::write_bib(pkgs)
 
 
 # Acknowledgements {-}
-We would like to thank Maximilian Geulen and Merten Wothge for their help in developing the research design as well as collecting the data.
-We would further like to thank the authors of the packages we have used.
+We would like to thank Maximilian Geulen and Merten Wothge for their help in developing the research design as well as collecting the data. We would also like to thank Laura Burbach for her helpful comments on this paper. We would further like to thank the authors of the packages we have used.
 ```{r r_citations, eval=TRUE, include=TRUE, results="asis"}
 rmdtemplates::line_cite(pkgs) # This creates a single line citing all packages
 #rmdtemplates::list_cite(pkgs) # This creates a "thightlist" of all packages 
