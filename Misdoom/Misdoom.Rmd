@@ -3,7 +3,7 @@ title: "Unser Paper Title"
 author-inputfile: "anonauthors.tex" 
 abstract: |
   The abstract should briefly summarize the contents of the paper in 150--250 words.
-keywords: "Hate Speech \\and Second keyword \\and Another keyword."
+keywords: "Hate Speech \\and Counter-Speech \\and Social Media \\and Political Deliberation"
 bibliography: ["rpackages.bib", "bibliography.bib"]
 biblio-style: "apalike"
 link-citations: true
@@ -25,16 +25,16 @@ output:
 ## Global options
 library(knitr)
 #options(max.print="75")
-opts_chunk$set(echo=FALSE,
-	             cache=FALSE,
-               prompt=FALSE,
-               tidy=TRUE,
-               comment=NA,
-               message=FALSE,
-               warning=FALSE,
-               out.width='100%'
+opts_chunk$set(echo = FALSE,
+	             cache = FALSE,
+               prompt = FALSE,
+               tidy = TRUE,
+               comment = NA,
+               message = FALSE,
+               warning = FALSE,
+               out.width = '100%'
                )
-opts_knit$set(width=100)
+opts_knit$set(width = 100)
 
 # Load required libraries
 library(rmdformats)
