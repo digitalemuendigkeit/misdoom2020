@@ -3,7 +3,7 @@ title: "Defend Your Enemy. A Qualitative Study on Defending Political Opponents 
 title-running: "Defend Your Enemy Against Hate Speech" 
 author-inputfile: "authors.tex" 
 abstract: |
-  The abstract should briefly summarize the contents of the paper in 150--250 words.
+  Both hate speech and disinformation negatively influence the internet’s potential for public deliberation and lead to polarization between political groups. In this paper, we examine the potential of counter speech to bolster public deliberation and reduce polarization. In two focus groups, we interview participants on what motivates them to engage in counter speech in general as well as counter speech favoring political adversaries. Firstly, we find a sharp distinction between participants who avoid engaging with hate speech and participants who actively engage with hate speech in order to combat it. Thus, the most important predictor for counter speech favoring adversaries is an individual’s propensity for counter speech in general. In turn, motivations for counter speech in general are a strong sense of morality, a perception of the internet as an important space for public deliberation, and a sense of responsibility to enforce rules for a fair debate. Many of those participants view their online activitiy as a form of activism. Additionally, individuals engaging in counter speech hope to positively influence not necessarily the hater, but the broader audience.
 keywords: "Hate Speech \\and Counter-Speech \\and Social Media \\and Political Deliberation"
 bibliography: ["rpackages.bib", "bibliography.bib"]
 biblio-style: "apalike"
