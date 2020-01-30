@@ -92,6 +92,8 @@ You can find the following supplementary materials in the Github Repository:
 
 These documents are in German:
 
+ANONYMIZED 
+<!--
 * [Focus group guideline](https://github.com/digitalemuendigkeit/misdoom2020/raw/master/supplementarymaterial/Focus-Group-Guide-German.pdf)
 * [Slides used in the focus group](https://github.com/digitalemuendigkeit/misdoom2020/raw/master/supplementarymaterial/Focus-Group-Slides-German.pdf)
 * [Questionnaire in focus group](https://github.com/digitalemuendigkeit/misdoom2020/raw/master/supplementarymaterial/Questionnaire-German.pdf)
@@ -100,7 +102,7 @@ These documents are in German:
 * [Transcription system](https://github.com/digitalemuendigkeit/misdoom2020/raw/master/supplementarymaterial/Transcription-System-German.pdf)
 
 You can also directly see all suppl. materials in the [github repository](https://github.com/digitalemuendigkeit/misdoom2020/tree/master/supplementarymaterial).
-
+-->
 
 ## Data of participants
 
