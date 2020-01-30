@@ -17,7 +17,7 @@ The other predictors we found refer to counter speech in general and therefore d
 
 The most important _motivations_ we found were deep-seated moral convictions and a feeling of responsibility to uphold those convictions. This does not only match the findings by on the importance of morality by @wilhelmGenderedMoralityBacklash2019 and @lambeStandingBullyingSocial2019. The acceptance of responsibility also matches the bystander model of intervention often used to describe bystander behavior in cyber-bullying incidents (e.g., [@naabFlaggingUncivilUser2018]). 
 Moreover, the participants felt that online discourse is an important part of political participation [@chenOnlineIncivilityPublic2017]. 
-Many of the active counter speakers we talked to saw their actions as a form of activism. One of their major goals was not to change the behavior of the people engaging in hate speech, but to positively influence the broader audience. This matches what @buergerCounterspeechLiteratureReview2019 calls the contagion effect.
+Many of the active counter speakers we talked to saw their actions as a form of activism. One of their major goals was not to change the behavior of the people engaging in hate speech, but to positively influence the broader audience. This matches what @buergerCounterspeechLiteratureReview2019 call the contagion effect.
 
 In conclusion, when looking at what motivates a person to regularly engage in counter speech, their relationship to the victim appears to be secondary. Of greater importance seems to be what part morality plays in that person's self-image and how willing they are to accept and defend online spaces as a place for public deliberation. 
 
