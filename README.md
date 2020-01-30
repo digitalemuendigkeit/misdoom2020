@@ -1,2 +1,15 @@
-# misdoom2020
-A paper repository
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+# Defend Your Enemy Against Hate Speech
+
+<!-- badges: start -->
+
+<!-- badges: end -->
+
+This github repository contains all the supplemental material (including
+the document sources) for the paper “Defend Your Enemy. A Qualitative
+Study on Defending Political Opponents Against Hate Speech Online”.
+
+You can explore the suppl. material online by going to
+<http://digitalemuendigkeit.github.io/misdoom2020>
