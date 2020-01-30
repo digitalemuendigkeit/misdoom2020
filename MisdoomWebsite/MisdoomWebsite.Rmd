@@ -84,12 +84,17 @@ Both hate speech and disinformation negatively influence the internet's potentia
 
 
 
-# Data
-On this sub-page you can find the data used as a downloadable file (CSV, Excel, or PDF).
+# Data and Materials
+On this sub-page you can find the data used as a downloadable files.
+
+## Materials
+
+You can find 
+
+## Data of participants
 
 ```{r data_1, echo=TRUE, message=TRUE, warning=TRUE, paged.print=TRUE}
-data_df <- iris
-
+data_df <- read.csv(file = "../data/participants.csv",header = TRUE,sep = ";",quote = "",dec = ",", fill = TRUE, nrows = 11, )
 
 
 datatable(data_df, filter = list(position = 'top', clear = TRUE, plain = FALSE), extensions = c('Buttons','FixedColumns'), options = list(
