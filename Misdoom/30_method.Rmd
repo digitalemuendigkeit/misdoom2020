@@ -47,51 +47,170 @@ pf <- read.csv(file = "participants.csv",header = TRUE,sep = ";",quote = "",dec 
 ```
 
 ```{r make-participants, include=FALSE}
-group <- c('Moderately active group (n=5)', 'Very active group (n=6)')
-genderfemale <- c(sum (pf[1:5,3]=='w'),sum (pf[6:11,3]=='w'))
-gendermale <- c(sum(pf[1:5,3]=='m'),sum(pf[6:11,3]=='m'))
-genderdis <- c(paste('Female: ',genderfemale[1], ', Male: ', gendermale[1], sep = ""), paste('Female: ',genderfemale[2], ', Male: ', gendermale[2], sep = ""))
-agemean <- c(round(mean(pf[1:5,4]), digits=1), round(mean(pf[6:11,4]), digits = 1))
-agesd <- c(round(sd(pf[1:5,4]), digits = 1), round(sd(pf[6:11,4]), digits = 1))
-age <- c(paste('M=',agemean[1],', SD=',agesd[1], sep = ""), paste('M=',agemean[2],', SD=',agesd[2], sep = ""))
-eduabi <- c(sum(pf[1:5,14]=='General Higher Education Entrance Qualification (Abitur)'), sum(pf[6:11,14]=='General Higher Education Entrance Qualification (Abitur)'))
-eduuni <- c(sum(pf[1:5,14]=='University Degree'), sum(pf[6:11,14]=='University Degree'))
-edu <- c(paste('Abitur', footnote_marker_alphabet(1), ': ', eduabi[1], ', University Degree: ', eduuni[1], sep = ""), paste('Abitur', footnote_marker_alphabet(1), ': ',  eduabi[2], ', University Degree: ', eduuni[2], sep = ""))
-occ <- c(paste('Student: ', sum(pf[1:5, 15]=='Student'), ', Full-Time Employed: ', (5 - sum(pf[1:5, 15]=='Student')), sep = ""), paste('Student: ', sum(pf[6:11, 15]=='Student'), ', Full-Time Employed: ', (6 - sum(pf[6:11, 15]=='Student')), sep = ""))
-frqiumean <- c(round(mean(pf[1:5,11]), digits = 1), round(mean(pf[6:11,11]), digits = 1))
-frqusd <- c(round(sd(pf[1:5,11]), digits = 1), round(sd(pf[6:11,11]), digits = 1))
-frqiu <- c(paste('M=',frqiumean[1],', SD=',frqusd[1], sep = ""), paste('M=',frqiumean[2],', SD=',frqusd[2], sep = ""))
-frqcpmean <- c(round(mean(pf[1:5,12]), digits=1), round(mean(pf[6:11,12]), digits=1))
-frqcpsd <- c(round(sd(pf[1:5,12]), digits=1), round(sd(pf[6:11,12]), digits=1))
-frqcp <- c(paste('M=',frqcpmean[1],', SD=',frqcpsd[1], sep = ""), paste('M=',frqcpmean[2],', SD=',frqcpsd[2], sep = ""))
-lrspmean<- c(round(mean(pf[1:5,13]),digits = 1), round(mean(pf[6:11,13]), digits = 1))
-lrspsd<- c(round(sd(pf[1:5,13]), digits = 1), round(sd(pf[6:11,13]), digits = 1))
-lrsp <- c(paste('M=',lrspmean[1],', SD=',lrspsd[1], sep = ""), paste('M=',lrspmean[2],', SD=',lrspsd[2], sep = ""))
-rwnm <- c('Group', 'Gender', 'Highest Level of Education', 'Student', 'Frequency of Use Social Media', 'Frequency of Posting and Commenting Online', 'Left-Right Self-Placement')
-participants <- data.frame(group, genderdis, age, edu, occ, frqiu, frqcp, lrsp)
-names (participants) <- c("Group", "Gender", "Age", "Highest Level of Education", "Occupation", paste0("Frequency of Social Media Use", footnote_marker_alphabet(2), footnote_marker_alphabet(3)), paste0("Frequency of Posting and Commenting Online", footnote_marker_alphabet(2)), paste0("Political Left-Right Self-Placement", footnote_marker_alphabet(4)))
-participants[1]<- NULL
+group <-
+  c('Moderately active group (n=5)', 'Very active group (n=6)')
+genderfemale <- c(sum(pf[1:5, 3] == 'w'), sum(pf[6:11, 3] == 'w'))
+gendermale <- c(sum(pf[1:5, 3] == 'm'), sum(pf[6:11, 3] == 'm'))
+genderdis <-
+  c(
+    paste('Female: ', genderfemale[1], ', Male: ', gendermale[1], sep = ""),
+    paste('Female: ', genderfemale[2], ', Male: ', gendermale[2], sep = "")
+  )
+agemean <-
+  c(round(mean(pf[1:5, 4]), digits = 1), round(mean(pf[6:11, 4]), digits = 1))
+agesd <-
+  c(round(sd(pf[1:5, 4]), digits = 1), round(sd(pf[6:11, 4]), digits = 1))
+age <-
+  c(
+    paste('M=', agemean[1], ', SD=', agesd[1], sep = ""),
+    paste('M=', agemean[2], ', SD=', agesd[2], sep = "")
+  )
+eduabi <-
+  c(
+    sum(pf[1:5, 14] == 'General Higher Education Entrance Qualification (Abitur)'),
+    sum(pf[6:11, 14] == 'General Higher Education Entrance Qualification (Abitur)')
+  )
+eduuni <-
+  c(sum(pf[1:5, 14] == 'University Degree'), sum(pf[6:11, 14] == 'University Degree'))
+edu <-
+  c(
+    paste(
+      'Abitur',
+      footnote_marker_alphabet(1),
+      ': ',
+      eduabi[1],
+      ', University Degree: ',
+      eduuni[1],
+      sep = ""
+    ),
+    paste(
+      'Abitur',
+      footnote_marker_alphabet(1),
+      ': ',
+      eduabi[2],
+      ', University Degree: ',
+      eduuni[2],
+      sep = ""
+    )
+  )
+occ <-
+  c(
+    paste(
+      'Student: ',
+      sum(pf[1:5, 15] == 'Student'),
+      ', Full-Time Employed: ',
+      (5 - sum(pf[1:5, 15] == 'Student')),
+      sep = ""
+    ),
+    paste(
+      'Student: ',
+      sum(pf[6:11, 15] == 'Student'),
+      ', Full-Time Employed: ',
+      (6 - sum(pf[6:11, 15] == 'Student')),
+      sep = ""
+    )
+  )
+frqiumean <-
+  c(round(mean(pf[1:5, 11]), digits = 1), round(mean(pf[6:11, 11]), digits = 1))
+frqusd <-
+  c(round(sd(pf[1:5, 11]), digits = 1), round(sd(pf[6:11, 11]), digits = 1))
+frqiu <-
+  c(
+    paste('M=', frqiumean[1], ', SD=', frqusd[1], sep = ""),
+    paste('M=', frqiumean[2], ', SD=', frqusd[2], sep = "")
+  )
+frqcpmean <-
+  c(round(mean(pf[1:5, 12]), digits = 1), round(mean(pf[6:11, 12]), digits =
+                                                  1))
+frqcpsd <-
+  c(round(sd(pf[1:5, 12]), digits = 1), round(sd(pf[6:11, 12]), digits =
+                                                1))
+frqcp <-
+  c(
+    paste('M=', frqcpmean[1], ', SD=', frqcpsd[1], sep = ""),
+    paste('M=', frqcpmean[2], ', SD=', frqcpsd[2], sep = "")
+  )
+lrspmean <-
+  c(round(mean(pf[1:5, 13]), digits = 1), round(mean(pf[6:11, 13]), digits = 1))
+lrspsd <-
+  c(round(sd(pf[1:5, 13]), digits = 1), round(sd(pf[6:11, 13]), digits = 1))
+lrsp <-
+  c(
+    paste('M=', lrspmean[1], ', SD=', lrspsd[1], sep = ""),
+    paste('M=', lrspmean[2], ', SD=', lrspsd[2], sep = "")
+  )
+rwnm <-
+  c(
+    'Group',
+    'Gender',
+    'Highest Level of Education',
+    'Student',
+    'Frequency of Use Social Media',
+    'Frequency of Posting and Commenting Online',
+    'Left-Right Self-Placement'
+  )
+participants <-
+  data.frame(group, genderdis, age, edu, occ, frqiu, frqcp, lrsp)
+names(participants) <-
+  c("Group",
+    "Gender",
+    "Age",
+    "Highest Level of Education",
+    "Occupation",
+    paste0(
+      "Frequency of Social Media Use",
+      footnote_marker_alphabet(2),
+      footnote_marker_alphabet(3)
+    ),
+    paste0(
+      "Frequency of Posting and Commenting Online",
+      footnote_marker_alphabet(2)
+    ),
+    paste0(
+      "Political Left-Right Self-Placement",
+      footnote_marker_alphabet(4)
+    )
+  )
+participants[1] <- NULL
 parttrans <- as.data.frame(t(as.matrix(participants)))
-names (parttrans) <- c("Moderately active group (n=5)", "Very active group (n=6)")
+names(parttrans) <-
+  c("Moderately active group (n=5)", "Very active group (n=6)")
 # Unsure how to escape special characters like =. Both \= as well as \\= do not seem to work.
 ```
 
 ```{r table-participants}
-noop <- function(x){x}
+noop <- function(x) {x}
+
 # Note that the label has to be added manually in the caption here.
-parttrans %>% 
-  knitr::kable(caption = "Focus group participants", booktabs=T, row.names = T, escape = F) %>% 
-  column_spec(1, width = "10em") %>% 
-  column_spec(2:3, width = "10em") %>% 
-  noop() %>%
-  footnote(threeparttable = T, alphabet = c("General Higher Education Entrance Qualification;", "1=never, 2=very rarely, 3=several times a month, 4=several times a week, 5=daily, 6=several times a day;", "averaged over 6 types of platforms (social networking sites, video platforms, blogs, online newspapers, infotainment, social news);","1=left, 10=right"))
+parttrans %>%
+  knitr::kable(
+    caption = "Focus group participants",
+    booktabs = T,
+    row.names = T,
+    escape = F
+  ) %>%
+  column_spec(1, width = "10em") %>%
+  column_spec(2:3, width = "10em") %>%
+  footnote(
+    threeparttable = T,
+    alphabet = c(
+      "General Higher Education Entrance Qualification;",
+      "1=never, 2=very rarely, 3=several times a month, 4=several times a week, 5=daily, 6=several times a day;",
+      "averaged over 6 types of platforms (social networking sites, video platforms, blogs, online newspapers, infotainment, social news);",
+      "1=left, 10=right"
+    )
+  ) %>% 
+  noop() # last line
+
 # Tried to further format the table with extraKable and more packages in lncs-template-test. Unfortunately does not seem to work, therefore commented out. :)
 ```
 
 The participants from group _VA_ score somewhat higher on average social media use frequency and much higher on the posting and commenting frequency. Therefore, the classification based on the preliminary questioning was proven valid.
 
 ## Content analysis
-We conducted a qualitative content analysis as described by @mayringQualitativeContentAnalysis2014 using MAXQDA. <!-- Spefically, we employed the summarizing technique. 
+We conducted a qualitative content analysis as described by @mayringQualitativeContentAnalysis2014 using MAXQDA. 
+<!-- 
+Spefically, we employed the summarizing technique. 
 The categories were formed by combining a deductive with an inductive approach. Deductively, we followed the categorization into the very active and moderately active group as well as the categorization prescribed by our guide: 
 * _Moderately active group_
   + _Description_ (1. Own experiences with hate speech. and 2. Engagement in counter speech)
@@ -101,20 +220,24 @@ The categories were formed by combining a deductive with an inductive approach. 
   + _..._
  
 Inside these categories, more sub-categories were formed inductively.
-### Intercoder reliability -->
+### Intercoder reliability 
+-->
 After we first developed a categorization, we tested for intercoder reliability by calculating coefficient kappa using the approach of @brennan1981coefficient (minimum coding overlap=60%). 
 <!-- The results are shown in table \@ref(tab:table-intercoder-reliability).
 
 ```{r table-intercoder-reliability, include=FALSE}
+# this is a small table 
 tribble(
   ~`Category`, ~`Number of codes`, ~`Minimum coding overlap`, ~`Agreement`, ~`kappa`,
   "Moderately active group",  82, "60%", "27.16%", 0.26,
   "Very active group",  124, "60%","27.23%", 0.26
-) %>% knitr::kable(caption = "Intercoder Reliability", booktabs=T, longtable=T)
+) %>% 
+  knitr::kable(caption = "Intercoder Reliability", 
+               booktabs = T, longtable = T)
 ```
 Overall, a kappa of 0.26 was calculated. This proposes unssatisfactory reliability which is, however, not out of the ordinary for the first iteration of intercoder reliability examination. [@campbellCodingIndepthSemistructured2013; @macphailProcessGuidelinesEstablishing2016]-->
-We calculated a kappa of 0.26 which proposes unsatisfactory reliability. To remedy this , we employed the Intercoder Agreement method as described by @campbellCodingIndepthSemistructured2013.
 
+We calculated a kappa of 0.26 which proposes unsatisfactory reliability. To remedy this, we employed the Intercoder Agreement method as described by @campbellCodingIndepthSemistructured2013. 
 In Figure \@ref(fig:categorization), an overview of the final categorization is visible.
 
 ```{r categorization, fig.cap="Overview of the final categorization"}
