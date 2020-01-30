@@ -21,16 +21,16 @@ During the focus groups, we used screenshots of pertinent online interactions as
 Also, both the AfD and the Greens, especially Claudia Roth, could be considered highly polarizing in November and December of 2018 when the focus groups were conducted [@gensingGruenenPolitikerinRothIm2018; @VolksverhetzungHunderteAnzeigen2018].
 
 ```{r stimulus-a, eval=FALSE, fig.align='center', fig.cap="Stimulus A (tweet by German politician Alice Weidel containing anti-immigrant rhetoric)", fig.show='hold', include=FALSE, out.width="50%"}
-knitr::include_graphics("images/stimulus1.png")
+knitr::include_graphics("../images/stimulus1.png")
 ```
 
 
 ```{r stimulus-b, fig.cap="Stimulus B (insulting replies to one of German politician's Alice Weidel's tweets)", fig.show='hold', fig.align='center'}
-knitr::include_graphics("images/stimulus2.png")
+knitr::include_graphics("../images/stimulus2.png")
 ```
 
 ```{r stimulus-c, eval=FALSE, fig.align='center', fig.cap="Stimulus C (facebook comments insulting German politician Claudia Roth)", fig.show='hold', include=FALSE, out.width="60%"}
-knitr::include_graphics("images/stimulus3.png")
+knitr::include_graphics("../images/stimulus3.png")
 ```
 
 ### Recording and transcription
@@ -43,7 +43,7 @@ Potential participants who reported only passive social media use or none at all
 Before starting the focus group, each participant was surveyed on demographic details as well as the frequency of their social media use in general, the frequency of them posting and commenting online, and their political left-right self-placement [@breyerLeftRightSelfPlacementALLBUS]. The results are displayed in table \@ref(tab:table-participants).
 
 ```{r read-participants, include=FALSE}
-pf <- read.csv(file = "participants.csv",header = TRUE,sep = ";",quote = "",dec = ",", fill = TRUE, nrows = 11, )
+pf <- read.csv(file = "../data/participants.csv",header = TRUE,sep = ";",quote = "",dec = ",", fill = TRUE, nrows = 11, )
 ```
 
 ```{r make-participants, include=FALSE}
@@ -242,5 +242,5 @@ In Figure \@ref(fig:categorization), an overview of the final categorization is 
 
 ```{r categorization, fig.cap="Overview of the final categorization"}
 # Note that the label for a figure is always fig:chunkname
-knitr::include_graphics("images/categorization.png")
+knitr::include_graphics("../images/categorization.png")
 ``` 
