@@ -38,7 +38,7 @@ Each focus group was recorded on audio. We then transcribed the recordings  usin
 
 ## Participants
 The participants were recruited through convenience sampling. Based on preliminary questioning, they were sorted into two homogenous groups, the _moderately active_ group and the _very active_ group, in order to obtain more detailed results [@schulzFokusgruppenEmpirischenSozialwissenschaft2012]. 
-Potential participants who reported only passive social media use or none at all were excluded. The _moderately active_ group (group _MA_, n=5) included participants who mostly consumed social media but only seldomly posted or commented. Participants who not only used but also commented and posted in social media became part of the _very active group_ (group _VA_, n=6). 
+Potential participants who reported only passive social media use or none at all were excluded. The _moderately active_ group (n=5) included participants who mostly consumed social media but only seldomly posted or commented. Participants who not only used but also commented and posted in social media became part of the _very active group_ (n=6). 
 
 Before starting the focus group, each participant was surveyed on demographic details as well as the frequency of their social media use in general, the frequency of them posting and commenting online, and their political left-right self-placement [@breyerLeftRightSelfPlacementALLBUS]. The results are displayed in table \@ref(tab:table-participants).
 
@@ -205,7 +205,7 @@ parttrans %>%
 # Tried to further format the table with extraKable and more packages in lncs-template-test. Unfortunately does not seem to work, therefore commented out. :)
 ```
 
-The participants from group _VA_ score somewhat higher on average social media use frequency and much higher on the posting and commenting frequency. Therefore, the classification based on the preliminary questioning was proven valid.
+The participants from the _very active_ group score somewhat higher on average social media use frequency and much higher on the posting and commenting frequency. Therefore, the classification based on the preliminary questioning was proven valid.
 
 ## Content analysis
 We conducted a qualitative content analysis as described by @mayringQualitativeContentAnalysis2014 using MAXQDA. 
