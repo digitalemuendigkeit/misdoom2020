@@ -32,8 +32,11 @@ $endif$
 \usepackage{ragged2e}
 \usepackage{tabularx}
 \usepackage{caption}
+%\usepackage{ulem}
 \addbibresource{bibliography.bib}
 \addbibresource{rpackages.bib}
+
+
 % Used for displaying a sample figure. If possible, figure files should
 % be included in EPS format.
 %
@@ -65,6 +68,14 @@ $if(verbatim-in-note)$
 \usepackage{fancyvrb}
 \VerbatimFootnotes
 $endif$
+$if(strikeout)$
+    \usepackage[normalem]{ulem}
+    % Avoid problems with \sout in headers with hyperref
+    \pdfstringdefDisableCommands{\renewcommand{\sout}{}}
+$endif$
+$for(header-includes)$
+$header-includes$
+$endfor$
 $if(tables)$
 \usepackage{longtable,booktabs}
 $endif$

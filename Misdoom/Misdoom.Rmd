@@ -1,6 +1,6 @@
 ---
 title: "Unser Paper Title"
-author-inputfile: "authors.tex" 
+author-inputfile: "anonauthors.tex" 
 abstract: |
   The abstract should briefly summarize the contents of the paper in 150--250 words.
 keywords: "Hate Speech \\and Second keyword \\and Another keyword."
@@ -57,9 +57,9 @@ rmdtemplates::write_bib(pkgs)
 ```
 ```{r related-work, child='20_related-work.Rmd'}
 ```
-```{r method, child='30_method.Rmd'}
+```{r method, child='30_method.Rmd', eval = TRUE}
 ```
-```{r results, child='40_Results.Rmd'}
+```{r results, child='40_Results.Rmd', eval = TRUE}
 ```
 ```{r discussion-and-conclusion, child='50_discussion-and-conclusion.Rmd'}
 ```
