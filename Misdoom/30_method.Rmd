@@ -38,7 +38,7 @@ Each focus group was recorded on audio. We then transcribed the recordings  usin
 
 ## Participants
 The participants were recruited through convenience sampling. Based on preliminary questioning, they were sorted into two homogenous groups, the _moderately active_ group and the _very active_ group, in order to obtain more detailed results [@schulzFokusgruppenEmpirischenSozialwissenschaft2012]. 
-Potential participants who reported only passive social media use or none at all were excluded. The _moderately active_ group (n=5) included participants who mostly consumed social media but only seldomly posted or commented. Participants who not only used but also commented and posted in social media became part of the _very active group_ (n=6). 
+Potential participants who reported only passive social media use or none at all were excluded. The _moderately active_ group (group _MA_, n=5) included participants who mostly consumed social media but only seldomly posted or commented. Participants who not only used but also commented and posted in social media became part of the _very active group_ (group _VA_, n=6). 
 
 Before starting the focus group, each participant was surveyed on demographic details as well as the frequency of their social media use in general, the frequency of them posting and commenting online, and their political left-right self-placement [@breyerLeftRightSelfPlacementALLBUS]. The results are displayed in table \@ref(tab:table-participants).
 
@@ -69,7 +69,7 @@ lrspsd<- c(round(sd(pf[1:5,13]), digits = 1), round(sd(pf[6:11,13]), digits = 1)
 lrsp <- c(paste('M=',lrspmean[1],', SD=',lrspsd[1], sep = ""), paste('M=',lrspmean[2],', SD=',lrspsd[2], sep = ""))
 rwnm <- c('Group', 'Gender', 'Highest Level of Education', 'Student', 'Frequency of Use Social Media', 'Frequency of Posting and Commenting Online', 'Left-Right Self-Placement')
 participants <- data.frame(group, genderdis, age, edu, occ, frqiu, frqcp, lrsp)
-names (participants) <- c("Group", "Gender", "Age", "Highest Level of Education", "Occupation", paste0("Frequency of Social Media Use", footnote_marker_alphabet(2), footnote_marker_alphabet(3)), paste0("Frequency of Posting and Commenting Online", footnote_marker_alphabet(2)), paste0("Political Left-Right Self-Placement", footnote_marker_alphabet(3)))
+names (participants) <- c("Group", "Gender", "Age", "Highest Level of Education", "Occupation", paste0("Frequency of Social Media Use", footnote_marker_alphabet(2), footnote_marker_alphabet(3)), paste0("Frequency of Posting and Commenting Online", footnote_marker_alphabet(2)), paste0("Political Left-Right Self-Placement", footnote_marker_alphabet(4)))
 participants[1]<- NULL
 parttrans <- as.data.frame(t(as.matrix(participants)))
 names (parttrans) <- c("Moderately active group (n=5)", "Very active group (n=6)")
@@ -88,10 +88,7 @@ parttrans %>%
 # Tried to further format the table with extraKable and more packages in lncs-template-test. Unfortunately does not seem to work, therefore commented out. :)
 ```
 
-
-
-
-The participants from the very active group score somewhat higher on average social media use frequency and much higher on the posting and commenting frequency. Therefore, the classification based on the preliminary questioning was proven valid.
+The participants from group _VA_ score somewhat higher on average social media use frequency and much higher on the posting and commenting frequency. Therefore, the classification based on the preliminary questioning was proven valid.
 
 ## Content analysis
 We conducted a qualitative content analysis as described by @mayringQualitativeContentAnalysis2014 using MAXQDA. <!-- Spefically, we employed the summarizing technique. 
