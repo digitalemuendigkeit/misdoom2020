@@ -1,7 +1,10 @@
 # Method
 As laid out in chapter \@ref(predictors-for-counter-speech), there is some research on predictors for counter speech in general as well as a breadth of studies in the field of cyber-bystander research. To our knowledge, however, there have not been any studies on out-group favoring counter speech. Therefore, an exploratoy study design was chosen. Data was gathered in two focus groups. Afterwards, the data was transcribed and analysed to find the most pertinent predictors. The full transcriptions and the full analysis as well as the questionnaire, the slides and the guide used to collect our data can be found in our github repository for this project.[^github]
 
-[^github]: The repo can be found here: ([github.com/digitalemuendigkeit/misdoom2020](http://github.com/digitalemuendigkeit/misdoom2020)).
+<!-- ANONYMIZED
+[^github]: The repo can be found here: ([github.com/digitalemuendigkeit/misdoom2020](http://github.com/digitalemuendigkeit/misdoom2020)). -->
+
+[^github]: Repository ANONYMIZED.
 
 ## Focus groups
 We conducted two focus groups, asking participants about their experiences with online hate speech in general and their own reactions to hate speech in particular, i.e., if they engaged in in counter speech at all. Special emphasis was placed on counter speech on behalf of political adversaries, that is, people the participants considered to be their opponents in an online discussion.

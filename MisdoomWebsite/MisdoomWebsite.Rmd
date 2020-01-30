@@ -77,19 +77,37 @@ Both hate speech and disinformation negatively influence the internet's potentia
 ```{r dummy, child = '../Misdoom/99_dummy.Rmd', eval = FALSE}
 ```
 
-```{r acks, child='../Misdoom/90_acks.Rmd', eval = TRUE}
-```
 
 
 
 
 
-# Data
-On this sub-page you can find the data used as a downloadable file (CSV, Excel, or PDF).
+
+# Data and Materials
+On this sub-page you can find the data used as a downloadable files.
+
+## Materials
+
+You can find the following supplementary materials in the Github Repository:
+
+These documents are in German:
+
+ANONYMIZED 
+<!--
+* [Focus group guideline](https://github.com/digitalemuendigkeit/misdoom2020/raw/master/supplementarymaterial/Focus-Group-Guide-German.pdf)
+* [Slides used in the focus group](https://github.com/digitalemuendigkeit/misdoom2020/raw/master/supplementarymaterial/Focus-Group-Slides-German.pdf)
+* [Questionnaire in focus group](https://github.com/digitalemuendigkeit/misdoom2020/raw/master/supplementarymaterial/Questionnaire-German.pdf)
+* [Transcript of Group "moderately active"](https://github.com/digitalemuendigkeit/misdoom2020/raw/master/supplementarymaterial/Transcript-Moderately-Active-Group-German.pdf)
+* [Transcript of group "very active"](https://github.com/digitalemuendigkeit/misdoom2020/raw/master/supplementarymaterial/Transcript-Very-Active-Group-German.pdf)
+* [Transcription system](https://github.com/digitalemuendigkeit/misdoom2020/raw/master/supplementarymaterial/Transcription-System-German.pdf)
+
+You can also directly see all suppl. materials in the [github repository](https://github.com/digitalemuendigkeit/misdoom2020/tree/master/supplementarymaterial).
+-->
+
+## Data of participants
 
 ```{r data_1, echo=TRUE, message=TRUE, warning=TRUE, paged.print=TRUE}
-data_df <- iris
-
+data_df <- read.csv(file = "../data/participants.csv",header = TRUE,sep = ";",quote = "",dec = ",", fill = TRUE, nrows = 11, )
 
 
 datatable(data_df, filter = list(position = 'top', clear = TRUE, plain = FALSE), extensions = c('Buttons','FixedColumns'), options = list(
@@ -106,6 +124,10 @@ datatable(data_df, filter = list(position = 'top', clear = TRUE, plain = FALSE),
 ```{r r_citations2, eval=TRUE, include=TRUE, results="asis"}
 #rmdtemplates::line_cite(pkgs) # This creates a single line citing all packages
 rmdtemplates::list_cite(pkgs) # This creates a "thightlist" of all packages 
+```
+
+
+```{r acks, child='../Misdoom/90_acks.Rmd', eval = FALSE}
 ```
 
 # References
