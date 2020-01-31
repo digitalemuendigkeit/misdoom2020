@@ -1,5 +1,6 @@
 # Acknowledgements {-}
-We would like to thank Maximilian Geulen and Merten Wothge for their help in developing the research design as well as collecting the data. We would also like to thank Laura Burbach for her helpful comments on this paper. This research was supported
+We would like to thank Maximilian Geulen and Merten Wothge for their help in developing the research design as well as collecting the data.
+This research was supported
 by the Digital Society research program funded by the
 Ministry of Culture and Science of the German State of North
 Rhine-Westphalia. We would further like to thank the authors of the packages we have used.
