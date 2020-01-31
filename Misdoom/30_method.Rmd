@@ -4,7 +4,7 @@ As laid out in chapter \@ref(predictors-for-counter-speech), there is some resea
 <!-- ANONYMIZED
 [^github]: The repo can be found here: ([github.com/digitalemuendigkeit/misdoom2020](http://github.com/digitalemuendigkeit/misdoom2020)). -->
 
-[^github]: Repository ANONYMIZED.
+[^github]: Anonymized Repository https://osf.io/zru3y/?view_only=27f024097e0b4f898e4fdaeafe0c7036
 
 ## Focus groups
 We conducted two focus groups, asking participants about their experiences with online hate speech in general and their own reactions to hate speech in particular, i.e., if they engaged in in counter speech at all. Special emphasis was placed on counter speech on behalf of political adversaries, that is, people the participants considered to be their opponents in an online discussion.

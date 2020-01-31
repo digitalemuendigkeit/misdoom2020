@@ -1,5 +1,5 @@
 # Results
-As figure \@ref(fig:categorization)) shows, we contrasted the results of both groups for each category, (_description_, _conditions_ and _motivations_). As our research question focusses on predictors, only a quick overview will be given for the category _description_.
+As figure \@ref(fig:categorization) shows, we contrasted the results of both groups for each category, (_description_, _conditions_ and _motivations_). As our research question focusses on predictors, only a quick overview will be given for the category _description_.
 
 For the sake of brevity, in the following sections these terms will be used:
 _Hater:_ The perpetrator of the hate speech,

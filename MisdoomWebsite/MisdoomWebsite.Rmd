@@ -100,6 +100,8 @@ ANONYMIZED
 * [Transcript of Group "moderately active"](https://github.com/digitalemuendigkeit/misdoom2020/raw/master/supplementarymaterial/Transcript-Moderately-Active-Group-German.pdf)
 * [Transcript of group "very active"](https://github.com/digitalemuendigkeit/misdoom2020/raw/master/supplementarymaterial/Transcript-Very-Active-Group-German.pdf)
 * [Transcription system](https://github.com/digitalemuendigkeit/misdoom2020/raw/master/supplementarymaterial/Transcription-System-German.pdf)
+* [Codiung List](https://github.com/digitalemuendigkeit/misdoom2020/raw/master/supplementarymaterial/Coding-List-German.xlsx)
+* [Categorization with engl. Translation](https://github.com/digitalemuendigkeit/misdoom2020/raw/master/supplementarymaterial/Categorization-German-With-Translation.xlsx)
 
 You can also directly see all suppl. materials in the [github repository](https://github.com/digitalemuendigkeit/misdoom2020/tree/master/supplementarymaterial).
 -->
