@@ -8,9 +8,6 @@ keywords: "Hate Speech \\and Counter Speech \\and Social Media \\and Political D
 bibliography: ["rpackages.bib", "bibliography.bib"]
 biblio-style: "apalike"
 link-citations: true
-header-includes:
-  - \usepackage{float}
-  - \usepackage{tabularx}
 output:
   bookdown::pdf_document2:
     fig_caption: true
