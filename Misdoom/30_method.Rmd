@@ -1,15 +1,15 @@
 # Method
 As laid out in chapter \@ref(predictors-for-counter-speech), there is some research on predictors for counter speech in general as well as a breadth of studies in the field of cyber-bystander research. To our knowledge, however, there have not been any studies on out-group favoring counter speech. Therefore, an exploratoy study design was chosen. Data was gathered in two focus groups. Afterwards, the data was transcribed and analysed to find the most pertinent predictors. The full transcriptions and the full analysis as well as the questionnaire, the slides and the guide used to collect our data can be found in our github repository for this project.[^github]
 
-<!-- ANONYMIZED
-[^github]: The repo can be found here: ([github.com/digitalemuendigkeit/misdoom2020](http://github.com/digitalemuendigkeit/misdoom2020)). -->
 
-[^github]: Anonymized Repository https://osf.io/zru3y/?view_only=27f024097e0b4f898e4fdaeafe0c7036
+[^github]: The repo can be found here: ([github.com/digitalemuendigkeit/misdoom2020](http://github.com/digitalemuendigkeit/misdoom2020)).
 
-## Focus groups
+<!-- ANONYMIZED version
+[^githuby]: Anonymized Repository https://osf.io/zru3y/?view_only=27f024097e0b4f898e4fdaeafe0c7036 -->
+## Focus Groups
 We conducted two focus groups, asking participants about their experiences with online hate speech in general and their own reactions to hate speech in particular, i.e., if they engaged in in counter speech at all. Special emphasis was placed on counter speech on behalf of political adversaries, that is, people the participants considered to be their opponents in an online discussion.
 
-### Guide and structure
+### Guide and Structure
 The focus groups were conducted using a guide which was pre-tested in advance. The sequence was structured into four sections, each concerned with one main topic:
 
 1. Own experiences with hate speech.
@@ -36,7 +36,7 @@ knitr::include_graphics("../images/stimulus2.png")
 knitr::include_graphics("../images/stimulus3.png")
 ```
 
-### Recording and transcription
+### Recording and Transcription
 Each focus group was recorded on audio. We then transcribed the recordings  using MAXQDA, employing a modified version of GAT 2 as the transcription system [@seltingSystemTranscribingTalkininteraction2011].
 
 ## Participants
@@ -210,7 +210,7 @@ parttrans %>%
 
 The participants from the _very active_ group score somewhat higher on average social media use frequency and much higher on the posting and commenting frequency. Therefore, the classification based on the preliminary questioning was proven valid.
 
-## Content analysis
+## Content Analysis
 We conducted a qualitative content analysis as described by @mayringQualitativeContentAnalysis2014 using MAXQDA. 
 <!-- 
 Spefically, we employed the summarizing technique. 
@@ -238,9 +238,9 @@ tribble(
   knitr::kable(caption = "Intercoder Reliability", 
                booktabs = T, longtable = T)
 ```
-Overall, a kappa of 0.26 was calculated. This proposes unssatisfactory reliability which is, however, not out of the ordinary for the first iteration of intercoder reliability examination. [@campbellCodingIndepthSemistructured2013; @macphailProcessGuidelinesEstablishing2016]-->
-
-We calculated a kappa of 0.26 which proposes unsatisfactory reliability. To remedy this, we employed the Intercoder Agreement method as described by @campbellCodingIndepthSemistructured2013. 
+-->
+Overall, a kappa of 0.26 was calculated. This proposes unssatisfactory reliability which is, however, not out of the ordinary for the first iteration of intercoder reliability examination. [@campbellCodingIndepthSemistructured2013; @macphailProcessGuidelinesEstablishing2016] To resolve the discrepancies between the different coders, we employed the Intercoder Agreement method as described by @campbellCodingIndepthSemistructured2013.
+<!--We calculated a kappa of 0.26 which proposes unsatisfactory reliability. To remedy this, we employed the Intercoder Agreement method as described by @campbellCodingIndepthSemistructured2013. -->
 In Figure \@ref(fig:categorization), an overview of the final categorization is visible.
 
 ```{r categorization, fig.cap="Overview of the final categorization"}

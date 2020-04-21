@@ -6,18 +6,18 @@ _Hater:_ The perpetrator of the hate speech,
 _victim(s):_ the recipient(s) or subject(s) of the hate speech, and
 _adversary victim(s):_ victim(s) or subject(s) of hate speech that represent a group the participant politically or personally opposes.
 
-## Description: Experiences with hate speech and handling hate speech
-When describing their experiences with hate speech, both groups mention similar attributes of hate speech (e.g., the online _spaces_ where they have most often observed it). However, while four of the six very active participants report to have themselves been victims of hate speech, only one moderately active participants does so as well. There are also notable differences in the way participants of both groups handle hate speech: While participants in the moderately active group tend to look at hateful comments only for entertainment value or avoid looking at comments at all, many participants in the very active groupactively seek out hate speech comments in order to fight it.
+## Description: Experiences with Hate Speech and Handling Hate Speech
+When describing their experiences with hate speech, both groups mention similar attributes of hate speech (e.g., the online _spaces_ where they have most often observed it). However, while four of the six very active participants report to have themselves been victims of hate speech, only one moderately active participants does so as well. There are also notable differences in the way participants of both groups handle hate speech: While participants in the moderately active group tend to look at hateful comments only for entertainment value or avoid looking at comments at all, many participants in the very active group actively seek out hate speech comments in order to fight it.
 
-## Conditions: When to engage in counter speech
+## Conditions: When to Engage in Counter Speech
 For a given situation, participants describe both conditions that make it more likely that they engage in counter speech ( _positive conditions_) as well as conditions that make it less likely ( _negative conditions_). As mentioned above, the participants in the moderately active group reported to only seldomely engage in counter speech at all, much less counter speech favoring _adversary victims_, i.e., politically opposed users that are targetted by hate speech. Therefore, most of the conditions listed are to be understood as conditions for counter speech in general. The only exception is the subcategory _positive conditions_ for the very active group where a differentiation between counter speech in general and counter speech favoring _adversary victims_ was possible.
 
-### Positive conditions for counter speech favoring adversaries.
+### Positive Conditions for Counter Speech Favoring Adversaries.
 When it comes defending people who they are politically opposed to, the following conditions emerged in the very active group: **1) Offenses against a "culture of discussion"**, i.e., the participant feels that the hater breaks the rules for a respectful debate, **2) offenses against the human dignity**, i.e., the participant feels that the hater debases the victim's human dignity, **3) properties of the victim**, e.g., the participants feels sympathy for the victim, and
  **4) a personal connection to the topic discussed**.
 
-### Positive conditions for counter speech in general.
-#### Properties of the hate speech.
+### Positive Conditions for Counter Speech in General.
+#### Properties of the Hate Speech.
 Concerning the properties of the hate speech or the situation where the hate speech occurs, participants of both groups mention they are more likely to step in when they feel that their **1) counter speech is likely to have an impact**, e.g., there are not that many comments overall.
 Additionally, participants of the very active group name the space as an important factor. They are more likely to step in when there is hate speech **2) outside of hater-dominated spaces**, e.g., not in a dedicated facebook group, or
 **3) in a more private space**, e.g., in a personal chat group.
@@ -26,34 +26,34 @@ On the other side, participants of the moderately active group mention **4) call
 **5) doxxing**, i.e., finding and disseminating the victim's personal information,
 as factors making counter speech more likely for them.
 
-#### Properties of the victim.
+#### Properties of the Victim.
 Relating to the properties of the victim, both groups mention that they would be more likely to intervene if
 **1) the victim is a private citizen** or if **2) they know the victim personally**, although that is more important in the moderately active group.
 Additionaly, particicpants of the very active group would be more likely to engage in counter speech if **3) the victim is an activist**.
 
-#### Personal attributes.
+#### Personal Attributes.
 Participants of both group state that they are more likely to step in if they are **1) well informed about the topic of discussion**. Members of the very active group also name **2) free time and mental energy** as a condition. Some members of the moderately active group, on the other hand, describe **3) feeling frustrated and angry** or **4) having a personal connection** to the topic of discussion as a conductor for counter~speech.
 
 
-### Negative conditions for counter speech in general.
+### Negative Conditions for Counter Speech in General.
 Many of the _negative conditions_ mentioned in the group are merely negations of the _positive conditions_ already listed and will therefore not be reported again.
 
-####  Properties of the hate speech.
+####  Properties of the Hate Speech.
 Members of both group state that they are less likely to engage in counter speech, when **1) both sides of the discussion engage in hate speech** or when
 **2) the hate speech is entertaining to them**.
 
 Additionally, participants of the very active group are less willing to intervene when they fear **3) personal risk to themselves**.
 
-#### Properties of the victim.
+#### Properties of the Victim.
 Apart from the negatives to the _positive conditions_ already mentioned, one member of the very active group reports that they would be less likely to intervene if they suspect **the victim is eager to be seen as a victim by the public**.
 
-## Motivations: Why to engage in counter speech
+## Motivations: Why to Engage in Counter Speech
 Just as with the conditions, the _motivations_ of the participants could also be categorized into _motivations for intervention_ and _motivations against intervention_. In this context, _motivations_ relate to the participants' attitudes towards counter speech in general. By contrast, the _conditions_ listed above relate to specific situations.
 
-### Motivations for intervention.
+### Motivations for Intervention.
 The _motivations for intervention_ can be further categorized into _goals and values_ and _personal attributes and experiences_.
 
-#### Goals and values.
+#### Goals and Values.
 Participants of both groups concede that while they might not be able to dissuade the hater from their destructive behavior, they still **1) hope to positively influence the audience**.
 Members of the very active group are additionally motivated by the desire to
 **2) fight disinformation**,
@@ -64,7 +64,7 @@ Some of the very active participants describe viewing their counter speech activ
 
 Moderately active participants, on the other hand, worry that _online hate might spark offline violence_.
 
-#### Personal attributes and experiences.
+#### Personal Attributes and Experiences.
 When it comes to their personal attributes and experiences that motivate them to engage in counter speech, participants of both groups mention
 **1) a strong sense of justice ** and
 **2) a sense of responsibility**.
@@ -76,7 +76,7 @@ In addition, very active participants name
 **4) being thanked and admired by others**, e.g., by site administrators,
 as motivators.
 
-### Motivations against intervention.
+### Motivations against Intervention.
 Members of both groups name one main motivation not to engage in counter speech: They think it is **1) not worth the effort**. On top of that, members of the very active group mainly mention **2) fatigue** with fighting hate speech in general as something that demotivates them from engaging in counter speech.
 
 Among the moderately active participants, a considerable number more motivations are named: 
